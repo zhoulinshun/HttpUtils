@@ -13,6 +13,23 @@ public class HttpEntity {
     private String method;
     private List<Map<String,String>> param;
     private Map<String,String> header;
+    private Map<String,String> cookie;
+
+    public HttpEntity(String url, Map<String, String> header) {
+        this.url = url;
+        this.header = header;
+    }
+
+    public HttpEntity() {
+    }
+
+    public Map<String, String> getCookie() {
+        return cookie;
+    }
+
+    public void setCookie(Map<String, String> cookie) {
+        this.cookie = cookie;
+    }
 
     public Map<String, String> getHeader() {
         return header;
