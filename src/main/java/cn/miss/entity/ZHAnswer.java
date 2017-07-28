@@ -11,6 +11,10 @@ public class ZHAnswer {
     public Paging paging;
     public List<Data> data;
 
+    public boolean isEmpty() {
+        return paging == null || data == null;
+    }
+
     public static class Paging {
         public String next;
         public int totals;
@@ -19,6 +23,10 @@ public class ZHAnswer {
 
     public static class Data {
         public String content;
+        public Question question;
+    }
+    public static class Question{
+        public String title;
     }
 }
 

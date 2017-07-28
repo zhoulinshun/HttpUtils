@@ -8,9 +8,11 @@ import cn.miss.client.HttpPostMethodClient;
 import cn.miss.entity.HttpEntity;
 import cn.miss.parse.ParseString;
 import org.apache.http.client.CookieStore;
+import org.apache.http.conn.HttpClientConnectionManager;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.impl.cookie.BasicClientCookie;
 
 import java.util.Map;
@@ -21,7 +23,7 @@ import java.util.Optional;
  * @Description:
  * @Date: Created in 2017/7/26.
  */
-public class HttpClientBuilder {
+public class HttpClientExecutor {
 
     private CloseableHttpClient httpClient;
     private CloseableHttpClient httpsClient;
@@ -51,14 +53,18 @@ public class HttpClientBuilder {
         } else {
             client = new HttpPostMethodClient();
         }
-        client.doStart(httpEntity, getHttpClient(httpEntity.getUrl(), cookieStore), cookieStore,parseString);
+        new Thread(()-> client.doStart(httpEntity, getHttpClient(httpEntity.getUrl(), cookieStore), cookieStore,parseString)).start();
+//        client.doStart(httpEntity, getHttpClient(httpEntity.getUrl(), cookieStore), cookieStore,parseString);
     }
 
-    public CookieStore getCookieStore(Map<String,String> cookie){
+    private CookieStore getCookieStore(Map<String,String> cookie){
         CookieStore cookieStore = new BasicCookieStore();
         cookie.forEach((s,e)->{
             BasicClientCookie c = new BasicClientCookie(s,e);
+            c.setDomain("www.zhihu.com");
+            c.setPath("/");
             cookieStore.addCookie(c);
+
         });
         return cookieStore;
     }

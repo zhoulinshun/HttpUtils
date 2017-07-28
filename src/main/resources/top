@@ -1,0 +1,1407 @@
+{
+  "paging": {
+    "is_end": false,
+    "next": "http:\/\/www.zhihu.com\/api\/v3\/feed\/topstory?action_feed=True&limit=10&session_token=ba009ce5e0015b0308b7a1bf10c2085a&action=down&after_id=14&desktop=true",
+    "previous": "http:\/\/www.zhihu.com\/api\/v3\/feed\/topstory?before_id=14&limit=10&session_token=ba009ce5e0015b0308b7a1bf10c2085a&action=pull&action_feed=True&desktop=true"
+  },
+  "explored": false,
+  "data": [
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": []
+        },
+        "mark_infos": [],
+        "excerpt": "先来个截图，修正错字没错这些都是本宝宝写的代码，可把我NB坏了，插会腰【被打死选几个吧。。。 这个是写了一半的歌声合成引擎，用PSOLA技术，核心的重采样器写好了，只是没做UI 打CTF的时候写的古典加密解密工具，后来发现有人做了 = = 一个虚拟机，比我博客上不带栈和异常的版本好多了 Dump句柄的，里面有一部分来自GayHub的代码，优化了一遍，比网传的版本不知道稳定多少 好了不吹了，搬砖去了，回头想起来再补",
+        "created_time": 1501127347,
+        "preview_type": "default",
+        "id": 204408956,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "VeroFess",
+          "headline": "一个专门写安全工具让系统变得不安全的家伙",
+          "url_token": "verofess",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/631bd61ec2f6f48a810cab639981048d",
+          "avatar_url": "https:\/\/pic4.zhimg.com\/50\/v2-0deea1dee2e8563f2d17da07aefab24f_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "631bd61ec2f6f48a810cab639981048d"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/204408956",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "戟荼",
+            "headline": "",
+            "url_token": "ji-tu-77",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/2226ba05a840b6894008bd95be18a6bb",
+            "avatar_url": "https:\/\/pic2.zhimg.com\/50\/71d5aad41e9d43ff05fc88c069eb0c39_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "id": "2226ba05a840b6894008bd95be18a6bb"
+          },
+          "created": 1463382218,
+          "url": "https:\/\/api.zhihu.com\/questions\/46394184",
+          "title": "你写过的自己觉着最牛X的黑程序？",
+          "answer_count": 279,
+          "bound_topic_ids": [
+            6433,
+            6175,
+            505,
+            2823,
+            10033
+          ],
+          "comment_count": 5,
+          "is_following": false,
+          "follower_count": 7285,
+          "type": "question",
+          "id": 46394184
+        },
+        "updated_time": 1501131636,
+        "content": "<p>先来个截图，修正错字<\/p><img src=\"https:\/\/pic3.zhimg.com\/v2-afa4e09f8bcae680a3f72d672d7c8ac6_b.png\" data-rawwidth=\"545\" data-rawheight=\"730\" class=\"origin_image zh-lightbox-thumb\" width=\"545\" data-original=\"https:\/\/pic3.zhimg.com\/v2-afa4e09f8bcae680a3f72d672d7c8ac6_r.png\"><p>没错这些都是本宝宝写的代码，可把我NB坏了，插会腰【被打死<\/p><p>选几个吧。。。<\/p><p><br><\/p><p><br><\/p><img src=\"https:\/\/pic1.zhimg.com\/v2-13666249c096dda070590a24190306d0_b.png\" data-rawwidth=\"699\" data-rawheight=\"351\" class=\"origin_image zh-lightbox-thumb\" width=\"699\" data-original=\"https:\/\/pic1.zhimg.com\/v2-13666249c096dda070590a24190306d0_r.png\"><p>这个是写了一半的歌声合成引擎，用PSOLA技术，核心的重采样器写好了，只是没做UI<\/p><p><br><\/p><img src=\"https:\/\/pic4.zhimg.com\/v2-708d122c128753b0961084a1e0635e0b_b.png\" data-rawwidth=\"800\" data-rawheight=\"984\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https:\/\/pic4.zhimg.com\/v2-708d122c128753b0961084a1e0635e0b_r.png\"><p>打CTF的时候写的古典加密解密工具，后来发现有人做了 = =<\/p><p><br><\/p><img src=\"https:\/\/pic2.zhimg.com\/v2-bc4600526891a9bbb9127e10d14e8b81_b.png\" data-rawwidth=\"1153\" data-rawheight=\"909\" class=\"origin_image zh-lightbox-thumb\" width=\"1153\" data-original=\"https:\/\/pic2.zhimg.com\/v2-bc4600526891a9bbb9127e10d14e8b81_r.png\"><p>一个虚拟机，比我博客上不带栈和异常的版本好多了<\/p><p><br><\/p><img src=\"https:\/\/pic4.zhimg.com\/v2-1a2b6163878d4bfc4c4875fa8f8b7b1f_b.png\" data-rawwidth=\"1220\" data-rawheight=\"800\" class=\"origin_image zh-lightbox-thumb\" width=\"1220\" data-original=\"https:\/\/pic4.zhimg.com\/v2-1a2b6163878d4bfc4c4875fa8f8b7b1f_r.png\"><p>Dump句柄的，里面有一部分来自GayHub的代码，优化了一遍，比网传的版本不知道稳定多少<\/p><p><br><\/p><p>好了不吹了，搬砖去了，回头想起来再补<\/p>",
+        "comment_count": 21,
+        "voteup_count": 58,
+        "reshipment_settings": "allowed",
+        "thanks_count": 11,
+        "excerpt_new": "先来个截图，修正错字 [图片] 没错这些都是本宝宝写的代码，可把我NB坏了，插会腰【被打死 选几个吧。。。  [图片] 这个是写了一半的歌声合成引擎，用PSOLA技术，核心的重采样器写好了，只是没做UI  [图片] 打CTF的时候写的古典加密解密工具，后来发现有人做了…",
+        "preview_text": "",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": "https:\/\/pic3.zhimg.com\/50\/v2-afa4e09f8bcae680a3f72d672d7c8ac6_200x112.png"
+      },
+      "show_actor_time": false,
+      "action_text_tpl": "来自话题:{}",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 204408956}",
+      "updated_time": 1501210647,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19558642",
+          "reason_text": "黑客 (Hacker)",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19551718",
+          "reason_text": "软件",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19568734",
+          "reason_text": "恶作剧",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19569491",
+          "reason_text": "源代码",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "631bd61ec2f6f48a810cab639981048d",
+          "reason_text": "VeroFess 创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "actors": [
+        {
+          "follow_interest": {
+            "is_followed": 1,
+            "interest_type": 1
+          },
+          "name": "软件",
+          "url": "https:\/\/api.zhihu.com\/topics\/19551718",
+          "excerpt": "",
+          "introduction": "",
+          "avatar_url": "https:\/\/pic2.zhimg.com\/50\/e872dc791_s.jpg",
+          "type": "topic",
+          "id": "19551718"
+        }
+      ],
+      "attached_info": "CmcIk43YwfGV3OsFEAQaCDY3MjM2MzgyILPF5csFKDowFUAFShMKAVQSAzUwNRiIs\/q52CsgASgCUhl0b3BpY19hY2tub3dsZWRnZWRfYW5zd2VyWggxMDc3MTQ0N3IJMjA0NDA4OTU2",
+      "offset": 5,
+      "created_time": 1501210647,
+      "type": "feed",
+      "id": "5_1501212624.3"
+    },
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": [
+            66157
+          ]
+        },
+        "mark_infos": [],
+        "excerpt": "一次坐公交车，一个30左右的少妇抱着个两岁左右的小男孩，小男孩叽叽歪歪哼哼唧唧……非要吃奶，少妇气的不行就象征性的打了小男孩几巴掌，这可不得了……小男孩哇哇的又哭又闹！少妇更急了，也骂骂咧咧的。这熊孩子估计越是人多越来劲，一发不可收拾。少妇最后可能实在没办法了，把衣服一掀……吃吧。可这熊孩子不吃，非要吃另一个。少妇说那个都还不一样呢？不吃别吃……这时候熊孩子说了句话（全程都是我们这里南面县城的方言…",
+        "created_time": 1501068690,
+        "preview_type": "default",
+        "id": 204104704,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "康斯坦丁",
+          "headline": "知乎优秀段子手",
+          "url_token": "kang-si-tan-ding-79-24",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/fc3e92bbed829d461f59e6e440983aea",
+          "avatar_url": "https:\/\/pic3.zhimg.com\/50\/v2-a247e666fbddbfc90a5b62c829cf9fda_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "fc3e92bbed829d461f59e6e440983aea"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/204104704",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "俗人",
+            "headline": "",
+            "url_token": "su-ren-50-93",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/02e14a1c3b6435da478d1220b8ef189f",
+            "avatar_url": "https:\/\/pic3.zhimg.com\/50\/3bef75ea354d080d08e26e12392209d6_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "id": "02e14a1c3b6435da478d1220b8ef189f"
+          },
+          "created": 1500960682,
+          "url": "https:\/\/api.zhihu.com\/questions\/62920125",
+          "title": "熊孩子的哪些神句震惊了你？",
+          "answer_count": 715,
+          "bound_topic_ids": [
+            106511,
+            40671,
+            307,
+            3143,
+            7228
+          ],
+          "comment_count": 5,
+          "is_following": false,
+          "follower_count": 5486,
+          "type": "question",
+          "id": 62920125
+        },
+        "updated_time": 1501151090,
+        "content": "一次坐公交车，一个30左右的少妇抱着个两岁左右的小男孩，小男孩叽叽歪歪哼哼唧唧……非要吃奶，少妇气的不行就象征性的打了小男孩几巴掌，这可不得了……小男孩哇哇的又哭又闹！少妇更急了，也骂骂咧咧的。这熊孩子估计越是人多越来劲，一发不可收拾。少妇最后可能实在没办法了，把衣服一掀……吃吧。可这熊孩子不吃，非要吃另一个。少妇说那个都还不一样呢？不吃别吃……这时候熊孩子说了句话（全程都是我们这里南面县城的方言，所以听得懂这句话的人都笑喷了，听不懂的莫名其妙）<br>…………<br>“我不吃这个，这个头上面有烟味儿”<br><br><br>分割线…………………………<br>没想到这个小故事这么短时间到三千赞<br>谢谢大家 <br>评论区里有的朋友对两点有质疑<br>1:两岁的孩子还没断奶？<br>请仔细看评论区其它乎友的评论，两岁真不算什么，吃到三四岁的有，吃到五六岁的也有，再往后虽然少见，也有。<br>有的人在哺乳两岁三岁的孩子时还有奶水，这个不是什么个例。不信我讲的，不信评论区里的内容，可以找身边老人问问就明白了！<br>2:两岁的孩子能说这种话？<br>五六个月的孩子喊父母的，少见但不罕<br>见。一岁左右能和大人简单沟通的，少，但有一些。两岁左右平时讲话比较流畅的，等你自己带宝宝的时候，或者有了宝宝后跟其它宝爸宝妈交流时不要太惊讶咯！<br>3:有人直接评论这是编造的段子，好，你说是就是，慢走不送！",
+        "comment_count": 385,
+        "voteup_count": 4438,
+        "reshipment_settings": "allowed",
+        "thanks_count": 348,
+        "excerpt_new": "一次坐公交车，一个30左右的少妇抱着个两岁左右的小男孩，小男孩叽叽歪歪哼哼唧唧…非要吃奶，少妇气的不行就象征性的打了小男孩几巴掌，这可不得了…小男孩哇哇的又哭又闹！少妇更急了，也骂骂咧咧的。这熊孩子估计越是人多越来劲，一发不可收拾。少妇最后可能…",
+        "preview_text": "",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": ""
+      },
+      "show_actor_time": false,
+      "action_text_tpl": "来自话题:{}",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 204104704}",
+      "updated_time": 1501212605,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19559632",
+          "reason_text": "孩子",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19551147",
+          "reason_text": "生活",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19671972",
+          "reason_text": "有哪些 X",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19863455",
+          "reason_text": "熊孩子",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "fc3e92bbed829d461f59e6e440983aea",
+          "reason_text": "康斯坦丁创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "actors": [
+        {
+          "follow_interest": {
+            "is_followed": 1,
+            "interest_type": 1
+          },
+          "name": "生活",
+          "url": "https:\/\/api.zhihu.com\/topics\/19551147",
+          "excerpt": "",
+          "introduction": "",
+          "avatar_url": "https:\/\/pic4.zhimg.com\/50\/d5aed1527_s.jpg",
+          "type": "topic",
+          "id": "19551147"
+        }
+      ],
+      "attached_info": "CmkIk43YwfGV3OsFEAQaCDY3MTgxMTc1IJL74csFKNYiMIEDQAZKEwoBVBIDMzA3GIiz+rnYKyABKAJSGXRvcGljX2Fja25vd2xlZGdlZF9hbnN3ZXJaCDE3MzkzMzczcgkyMDQxMDQ3MDQ=",
+      "offset": 6,
+      "created_time": 1501212605,
+      "type": "feed",
+      "id": "6_1501212624.31"
+    },
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": [
+            37225589
+          ]
+        },
+        "mark_infos": [],
+        "excerpt": "《天下第一》啊！ 李亚鹏。 霍建华。 郭晋安。为了对粤语和普通话配音的口形，整部剧成是非的说话节奏都很怪异…… 叶璇。海棠海棠海！ 黄圣依。雪姬雪姬雪！ 高圆圆。飘絮飘絮飘！ 陈怡蓉。云罗云罗云！ 刘松仁，在我心目中仅次于姜大卫的中老年帅哥。 陈法蓉，饰演郭晋安他娘……冷冻了二十年的娘比儿子年轻。 张卫健，饰演明明是我先的古三通。 其实《少年张三丰》《小宝与康熙》也都是颜值非常高的剧。 邓超，饰演地主家的傻…",
+        "created_time": 1500856886,
+        "preview_type": "default",
+        "id": 202798532,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "魁星",
+          "headline": "你们搞得这个东西啊，ex...calibur!",
+          "url_token": "guo-feng-shuo",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/1d290ca079cbc44b93b03eebe49e65eb",
+          "avatar_url": "https:\/\/pic3.zhimg.com\/50\/02088dbcdb6b743b98c006e01cfea766_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "1d290ca079cbc44b93b03eebe49e65eb"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/202798532",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "杉杉",
+            "headline": "俄语\/广告公关\/美与爱\/\/紫微斗数\/佛教\/圣彼得堡大学研一在读",
+            "url_token": "yuan-ming-mei",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/bdf7d54964a4dc7c911f74494e5e473c",
+            "avatar_url": "https:\/\/pic3.zhimg.com\/50\/v2-ad4113629e048af4a75fe0ee1b214016_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 0,
+            "badge": [],
+            "id": "bdf7d54964a4dc7c911f74494e5e473c"
+          },
+          "created": 1430275160,
+          "url": "https:\/\/api.zhihu.com\/questions\/29964350",
+          "title": "有哪些演员颜值特别高的电影或电视剧？",
+          "answer_count": 1807,
+          "bound_topic_ids": [
+            1818,
+            5419,
+            156533,
+            663
+          ],
+          "comment_count": 47,
+          "is_following": false,
+          "follower_count": 17680,
+          "type": "question",
+          "id": 29964350
+        },
+        "updated_time": 1500904464,
+        "content": "《天下第一》啊！<br><img src=\"https:\/\/pic3.zhimg.com\/v2-183610b9ef0b7affd5ff5de91a283cba_b.jpg\" data-rawwidth=\"670\" data-rawheight=\"530\" class=\"origin_image zh-lightbox-thumb\" width=\"670\" data-original=\"https:\/\/pic3.zhimg.com\/v2-183610b9ef0b7affd5ff5de91a283cba_r.jpg\">李亚鹏。<br><img src=\"https:\/\/pic2.zhimg.com\/v2-50e054e00b62bdf7c6658107f882a6a9_b.jpg\" data-rawwidth=\"668\" data-rawheight=\"477\" class=\"origin_image zh-lightbox-thumb\" width=\"668\" data-original=\"https:\/\/pic2.zhimg.com\/v2-50e054e00b62bdf7c6658107f882a6a9_r.jpg\">霍建华。<br><img src=\"https:\/\/pic2.zhimg.com\/v2-46fb1d755990e9fcac66bf923aeee801_b.jpg\" data-rawwidth=\"590\" data-rawheight=\"399\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https:\/\/pic2.zhimg.com\/v2-46fb1d755990e9fcac66bf923aeee801_r.jpg\">郭晋安。为了对粤语和普通话配音的口形，整部剧成是非的说话节奏都很怪异……<br><img src=\"https:\/\/pic2.zhimg.com\/v2-22b68706d08b9484392549d4f07c2d11_b.jpg\" data-rawwidth=\"512\" data-rawheight=\"384\" class=\"origin_image zh-lightbox-thumb\" width=\"512\" data-original=\"https:\/\/pic2.zhimg.com\/v2-22b68706d08b9484392549d4f07c2d11_r.jpg\">叶璇。海棠海棠海！<br><img src=\"https:\/\/pic2.zhimg.com\/v2-7bba9ac6302e91d50e75deab82c075b9_b.jpg\" data-rawwidth=\"720\" data-rawheight=\"540\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https:\/\/pic2.zhimg.com\/v2-7bba9ac6302e91d50e75deab82c075b9_r.jpg\">黄圣依。雪姬雪姬雪！<br><img src=\"https:\/\/pic3.zhimg.com\/v2-3d8447a63060ac4f7fa39f62dff017ee_b.jpg\" data-rawwidth=\"556\" data-rawheight=\"462\" class=\"origin_image zh-lightbox-thumb\" width=\"556\" data-original=\"https:\/\/pic3.zhimg.com\/v2-3d8447a63060ac4f7fa39f62dff017ee_r.jpg\">高圆圆。飘絮飘絮飘！<br><img src=\"https:\/\/pic3.zhimg.com\/v2-e96234a0c0182e60c596bb7d98386c66_b.jpg\" data-rawwidth=\"450\" data-rawheight=\"343\" class=\"origin_image zh-lightbox-thumb\" width=\"450\" data-original=\"https:\/\/pic3.zhimg.com\/v2-e96234a0c0182e60c596bb7d98386c66_r.jpg\">陈怡蓉。云罗云罗云！<br><img src=\"https:\/\/pic4.zhimg.com\/v2-fd423bebbee54a90bdaad8c897666513_b.jpg\" data-rawwidth=\"427\" data-rawheight=\"640\" class=\"origin_image zh-lightbox-thumb\" width=\"427\" data-original=\"https:\/\/pic4.zhimg.com\/v2-fd423bebbee54a90bdaad8c897666513_r.jpg\">刘松仁，在我心目中仅次于姜大卫的中老年帅哥。<br><img src=\"https:\/\/pic3.zhimg.com\/v2-28b7e16da9ea781f888bbb801828728a_b.jpg\" data-rawwidth=\"500\" data-rawheight=\"339\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https:\/\/pic3.zhimg.com\/v2-28b7e16da9ea781f888bbb801828728a_r.jpg\">陈法蓉，饰演郭晋安他娘……冷冻了二十年的娘比儿子年轻。<br><img src=\"https:\/\/pic1.zhimg.com\/v2-172925cbc026587ae91adb53b38337c4_b.jpg\" data-rawwidth=\"758\" data-rawheight=\"437\" class=\"origin_image zh-lightbox-thumb\" width=\"758\" data-original=\"https:\/\/pic1.zhimg.com\/v2-172925cbc026587ae91adb53b38337c4_r.jpg\">张卫健，饰演明明是我先的古三通。<br>其实《少年张三丰》《小宝与康熙》也都是颜值非常高的剧。<br><img src=\"https:\/\/pic2.zhimg.com\/v2-c93e5002c33a2db97f44768304dbb111_b.jpg\" data-rawwidth=\"445\" data-rawheight=\"300\" class=\"origin_image zh-lightbox-thumb\" width=\"445\" data-original=\"https:\/\/pic2.zhimg.com\/v2-c93e5002c33a2db97f44768304dbb111_r.jpg\">邓超，饰演地主家的傻儿子。<br><img src=\"https:\/\/pic3.zhimg.com\/v2-9697e8308bc0ef186a086504621b0fb6_b.jpg\" data-rawwidth=\"392\" data-rawheight=\"600\" class=\"content_image\" width=\"392\">最后来一张美美哒季检察长……<br><br>安利一下这个鬼畜作品：<br><a href=\"http:\/\/link.zhihu.com\/?target=http%3A\/\/www.bilibili.com\/video\/av8182515\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http:\/\/www.<\/span><span class=\"visible\">bilibili.com\/video\/av81<\/span><span class=\"invisible\">82515<\/span><span class=\"ellipsis\"><\/span><i class=\"icon-external\"><\/i><\/a><br>哈哈哈，就是他勾起了我重刷天下第一的欲望……<br><br>《少年张三丰》<br>（待补充）<br>《小宝与康熙》<br>（待补充）<br>我发现，有那么一阵，一部剧的剧情往往和颜值是负相关的，比如《雪花女神龙》……<br>（待补充）",
+        "comment_count": 36,
+        "voteup_count": 140,
+        "reshipment_settings": "allowed",
+        "thanks_count": 11,
+        "excerpt_new": "《天下第一》啊！  [图片] 李亚鹏。  [图片] 霍建华。  [图片] 郭晋安。为了对粤语和普通话配音的口形，整部剧成是非的说话节奏都很怪异…  [图片] 叶璇。海棠海棠海！  [图片] 黄圣依。雪姬雪姬雪！  [图片] 高圆圆。飘絮飘絮飘！  [图片] 陈怡蓉。云罗云罗云…",
+        "preview_text": "",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": "https:\/\/pic3.zhimg.com\/50\/v2-183610b9ef0b7affd5ff5de91a283cba_200x112.jpg"
+      },
+      "show_actor_time": true,
+      "action_text_tpl": "{}赞同了回答",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 202798532}",
+      "updated_time": 1501061551,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "20013528",
+          "reason_text": "颜值",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19566427",
+          "reason_text": "演员",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19555691",
+          "reason_text": "帅哥",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "source",
+          "reason_id": 1,
+          "object_token": "6b1a5c104ad81e1816e545daae86ca31",
+          "reason_text": "任晴天不喜欢下雨赞的内容",
+          "object_type": "people"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "1d290ca079cbc44b93b03eebe49e65eb",
+          "reason_text": "魁星创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "MEMBER_VOTEUP_ANSWER",
+      "actors": [
+        {
+          "is_followed": false,
+          "type": "people",
+          "name": "任晴天不喜欢下雨",
+          "headline": "有时间想签名不多看看会计？",
+          "url_token": "ren-ren-ren-ren-ren-gao-leng",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/6b1a5c104ad81e1816e545daae86ca31",
+          "avatar_url": "https:\/\/pic2.zhimg.com\/50\/v2-b8dff08c8fb5ba83afd808629f597bfd_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "6b1a5c104ad81e1816e545daae86ca31"
+        }
+      ],
+      "attached_info": "CmcIk43YwfGV3OsFEAQaCDY2OTQzOTAzILaE1csFKIwBMCRAB0oYCgFNEggzNzIyNTU4ORiIs\/q52CsgASgCUhRtZW1iZXJfdm90ZXVwX2Fuc3dlcloHNDE2ODIzMnIJMjAyNzk4NTMy",
+      "offset": 7,
+      "created_time": 1501061551,
+      "type": "feed",
+      "id": "7_1501212624.31"
+    },
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": []
+        },
+        "mark_infos": [],
+        "excerpt": "去年旅行时坐火车，硬卧。时间比较长，我百无聊赖地趴在床上玩手机。 对面下铺是一个很好看的男生，俊郎的眉眼，棱角分明的脸庞，浅色的衬衫下若隐若现地透着肌肉的轮廓。\n 他从上车开始就一直坐在窗边看风景，我估摸着他是一个人，于是就坐在了他对面。我对他笑了笑，他也礼貌地用微笑回应我。\n 旅途漫漫，一个人太寂寞，于是我主动和他搭讪。他眉飞色舞地给我讲起一路见识的风景，说他去过许多地方，去过苍茫的草原，也见识过…",
+        "created_time": 1501125839,
+        "preview_type": "default",
+        "id": 204395096,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "叶倩倩",
+          "headline": "一只玩电的不安分的小猫",
+          "url_token": "xie-qian-qian-20-2",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/df78803668cca4a5809955237fcd8ec8",
+          "avatar_url": "https:\/\/pic3.zhimg.com\/50\/2473b224954db662c7615208eb726f2a_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 0,
+          "badge": [],
+          "id": "df78803668cca4a5809955237fcd8ec8"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/204395096",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "尾宿",
+            "headline": "成就：封号斗罗～",
+            "url_token": "liu-min-62-80-11",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/c57cf5563468a78bf4a7d3a639365795",
+            "avatar_url": "https:\/\/pic2.zhimg.com\/50\/v2-b644065fe20b6d8d17eae7e4ac04ab85_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "id": "c57cf5563468a78bf4a7d3a639365795"
+          },
+          "created": 1499429357,
+          "url": "https:\/\/api.zhihu.com\/questions\/62137377",
+          "title": "哪个瞬间让你突然觉得逛知乎真有用？",
+          "answer_count": 2076,
+          "bound_topic_ids": [
+            307,
+            99,
+            119,
+            3946,
+            1243
+          ],
+          "comment_count": 36,
+          "is_following": false,
+          "follower_count": 24772,
+          "type": "question",
+          "id": 62137377
+        },
+        "updated_time": 1501147154,
+        "content": "去年旅行时坐火车，硬卧。时间比较长，我百无聊赖地趴在床上玩手机。<br><br> 对面下铺是一个很好看的男生，俊郎的眉眼，棱角分明的脸庞，浅色的衬衫下若隐若现地透着肌肉的轮廓。\n <br><br>他从上车开始就一直坐在窗边看风景，我估摸着他是一个人，于是就坐在了他对面。我对他笑了笑，他也礼貌地用微笑回应我。\n <br><br>旅途漫漫，一个人太寂寞，于是我主动和他搭讪。他眉飞色舞地给我讲起一路见识的风景，说他去过许多地方，去过苍茫的草原，也见识过美丽的银河。 \n<br><br>谈到兴致正浓，我说我想看看你拍的照片，他找了半天却没有找到。突然他好像想起了什么似的，打开了知乎APP，点开了一个回答递给了我。\n <br><br>真是太美了！画面里的璀璨的星河，就像我无数次在梦境中看到过的一样！我不由得惊呼。在那个回答里，他一个人爬雪山看海子，一个人走沙漠，一个人搭渔船出海，一个人进偏远山区，一个人走贺兰山脉，一个人野外徒步。 \n<br><br>我默默地记下了他的ID，然后把手机递还给了他。\n <br><br>我们不再言语。<br><br>他默默地继续看窗外的风景，而我则拿出了自己的手机，打开知乎开始看他的回答。<br><br> 原来对面这个好看的男生还有这么多厉害的技能啊！<br><br> 他的画画的好好看呀！可惜我只是学龄前学过1年，以后就再也没有接触过了，现在画的一点也不好。<br><br> 他居然会做木工哎！我第一次见会做木工的人！\n <br><br>哈哈哈哈哈哈哈这个人怎么这么可爱，怎么能想出来那么搞笑的脑洞回答嘛！\n <br><br>啊他的照片也照的好好看啊！随便哪一张都能拿来当壁纸啊！好羡慕！ \n<br><br>居然还会做那么好吃的饭！看哭了嘤嘤嘤！\n <br><br>他还读过好多书！他说的这本，这本我都看过哎！<br><br> 他不再像刚刚一样健谈，面对我的惊呼，只是用羞涩的微笑作为回应。\n <br><br>这个人真是太有才了！啊！我的男朋友要是也这么厉害多好哇！<br><br>下了火车以后我拨通了男朋友的电话，“老公你到哪里了？我到站了～快来接我呀！我今天遇到了一个超厉害的人，你快跟人家学学嘛！” <br><br>男朋友很听话。开始研究食谱，虽然一开始也会把菜炖糊。开始拿起单反拍照，虽然每次都被我大骂“天杀啦？！怎么把我拍这么丑！”开始认认真真地照着字帖练字，嗯，还是不怎么好看。但是我一点都不嫌弃他呀～虽然他没有对面的那个男生技能满满，虽然他每件事都做的那么笨拙，我也依然爱他呀。<br><br>一年后我也开始玩知乎，开始写回答。半年之后的今天，靠着写我和男朋友的狗粮小故事，慢慢地也有了4万关注者。<br><br>我又见到了那个在火车上遇见的男生，不过这次是在知乎上。他改名了，但是我依然记得他。我们加了同一个群，常常聊得忘记了时间。 <br><br>我以为他早已淡忘了这件事，一直也没有提起过。<br><br>直到昨天晚上！我居然在这个问题下看到了他的回答！ 还听说他想拉黑我男朋友？<br><br><br>我男朋友 <a data-hash=\"8951fd2d038aa9bc5bf64b66aadfd6cc\" href=\"http:\/\/www.zhihu.com\/people\/8951fd2d038aa9bc5bf64b66aadfd6cc\" class=\"member_mention\" data-hovercard=\"p$b$8951fd2d038aa9bc5bf64b66aadfd6cc\">@刘丞<\/a> 在此。你俩早已是互关，看着办吧！<br><br><br><a data-hash=\"696d66611f57e0b54ebd0ae98e4df0f6\" href=\"http:\/\/www.zhihu.com\/people\/696d66611f57e0b54ebd0ae98e4df0f6\" class=\"member_mention\" data-hovercard=\"p$b$696d66611f57e0b54ebd0ae98e4df0f6\">@上古天真<\/a> 惊不惊喜？意不意外？ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>你是不是以为到这里就结束了？<br><br>其实男主根本就不是 <a data-hash=\"696d66611f57e0b54ebd0ae98e4df0f6\" href=\"http:\/\/www.zhihu.com\/people\/696d66611f57e0b54ebd0ae98e4df0f6\" class=\"member_mention\" data-hovercard=\"p$b$696d66611f57e0b54ebd0ae98e4df0f6\">@上古天真<\/a> ……<br><br>惊不惊喜？意不意外？",
+        "comment_count": 600,
+        "voteup_count": 2287,
+        "reshipment_settings": "allowed",
+        "thanks_count": 180,
+        "excerpt_new": "去年旅行时坐火车，硬卧。时间比较长，我百无聊赖地趴在床上玩手机。 对面下铺是一个很好看的男生，俊郎的眉眼，棱角分明的脸庞，浅色的衬衫下若隐若现地透着肌肉的轮廓。 他从上车开始就一直坐在窗边看风景，我估摸着他是一个人，于是就坐在了他对面。我对他笑…",
+        "preview_text": "",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": ""
+      },
+      "show_actor_time": false,
+      "action_text_tpl": "来自话题:{}",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 204395096}",
+      "updated_time": 1501212585,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19562033",
+          "reason_text": "人际交往",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550581",
+          "reason_text": "学习",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550517",
+          "reason_text": "互联网",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19551147",
+          "reason_text": "生活",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "df78803668cca4a5809955237fcd8ec8",
+          "reason_text": "叶倩倩创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "actors": [
+        {
+          "follow_interest": {
+            "is_followed": 1,
+            "interest_type": 1
+          },
+          "name": "生活",
+          "url": "https:\/\/api.zhihu.com\/topics\/19551147",
+          "excerpt": "",
+          "introduction": "",
+          "avatar_url": "https:\/\/pic4.zhimg.com\/50\/d5aed1527_s.jpg",
+          "type": "topic",
+          "id": "19551147"
+        }
+      ],
+      "attached_info": "CmkIk43YwfGV3OsFEAQaCDY3MjMzODE0IM+55csFKO8RMNgEQAhKEwoBVBIDMzA3GIiz+rnYKyABKAJSGXRvcGljX2Fja25vd2xlZGdlZF9hbnN3ZXJaCDE3MDc5ODgzcgkyMDQzOTUwOTY=",
+      "offset": 8,
+      "created_time": 1501212585,
+      "type": "feed",
+      "id": "8_1501212624.31"
+    },
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": []
+        },
+        "mark_infos": [],
+        "excerpt": "当然是国内芒果台拍的那版综艺节目变形计了！！还记得第一次看变形计的时候觉得这个创意好棒，谁想出来的呀，给城市孩子和农村孩子一个交换的机会。前期内容也是不错的，但是后来越走越偏，成了网红制造机，捧红了各种买药整容网红。 内容也越来越假，无非是叛逆打父母逃跑那几个套路，到最后对着镜头哭着说道对不起父母。短短一个月，能指望这些人能改变多少？ 然后节目播出后一个个排队去整容，成为网红，卖些三无护肤品给自己…",
+        "created_time": 1501134002,
+        "preview_type": "default",
+        "id": 204460497,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "大多",
+          "headline": "英语专业\/在读(ฅ>ω",
+          "url_token": "da-duo-72",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/a615df473598e569618924c4118a3379",
+          "avatar_url": "https:\/\/pic2.zhimg.com\/50\/v2-eb05687e61713d5391a8514f141c2655_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 0,
+          "badge": [],
+          "id": "a615df473598e569618924c4118a3379"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/204460497",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "尾宿",
+            "headline": "成就：封号斗罗～",
+            "url_token": "liu-min-62-80-11",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/c57cf5563468a78bf4a7d3a639365795",
+            "avatar_url": "https:\/\/pic2.zhimg.com\/50\/v2-b644065fe20b6d8d17eae7e4ac04ab85_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "id": "c57cf5563468a78bf4a7d3a639365795"
+          },
+          "created": 1500470957,
+          "url": "https:\/\/api.zhihu.com\/questions\/62662726",
+          "title": "有哪些初见觉得很厉害，后来才发现没什么价值的作品？",
+          "answer_count": 2571,
+          "bound_topic_ids": [
+            253,
+            69,
+            75,
+            113,
+            68
+          ],
+          "comment_count": 33,
+          "is_following": false,
+          "follower_count": 13249,
+          "type": "question",
+          "id": 62662726
+        },
+        "updated_time": 1501209754,
+        "content": "当然是国内芒果台拍的那版综艺节目变形计了！！还记得第一次看变形计的时候觉得这个创意好棒，谁想出来的呀，给城市孩子和农村孩子一个交换的机会。前期内容也是不错的，但是后来越走越偏，成了网红制造机，捧红了各种买药整容网红。<br>内容也越来越假，无非是叛逆打父母逃跑那几个套路，到最后对着镜头哭着说道对不起父母。短短一个月，能指望这些人能改变多少？ <br><br>然后节目播出后一个个排队去整容，成为网红，卖些三无护肤品给自己的无脑粉丝，然后也不上学了，当个网红偶尔打几个广告，卖卖野鸡微商产品，过着衣食无忧的生活。<br><br>然后农村孩子则恢复了以往的生活，回到了田地里务农，照顾弟弟妹妹，过着吃不饱的生活。<br>可是，谁会在意呢。<br><br>真的会有人相信，一个月的农村生活，劳动改造，就能让那些城市主人公学会感恩，懂得珍惜？<br><br>另一方面，农村孩子去到城市里，城市孩子的父母各种 这个没吃过吧？这个吃过没？这个见过没？没见过吧？  各种各方面的关心会让他们更加的自卑。<br>他们回到农村后只会有更大的心里落差，给了他们一段时间的物质充裕的生活，最后把他们丢回农村，真的不会给他们心理造成伤害嘛？<br><br><br>最后引用评论区一句话：<br>如果我没见过光明 那么我本可以忍受黑暗<br><br><br><br>哈哈决定取匿啦，看到评论里都是友军 (๑ᵒ̴̶̷͈᷄ᗨᵒ̴̶̷͈᷅)",
+        "comment_count": 188,
+        "voteup_count": 1586,
+        "reshipment_settings": "allowed",
+        "thanks_count": 114,
+        "excerpt_new": "当然是国内芒果台拍的那版综艺节目变形计了！！还记得第一次看变形计的时候觉得这个创意好棒，谁想出来的呀，给城市孩子和农村孩子一个交换的机会。前期内容也是不错的，但是后来越走越偏，成了网红制造机，捧红了各种买药整容网红。 内容也越来越假，无非是叛…",
+        "preview_text": "",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": ""
+      },
+      "show_actor_time": false,
+      "action_text_tpl": "来自话题:{}",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 204460497}",
+      "updated_time": 1501212598,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550564",
+          "reason_text": "阅读",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550453",
+          "reason_text": "音乐",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550434",
+          "reason_text": "艺术",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550994",
+          "reason_text": "游戏",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "a615df473598e569618924c4118a3379",
+          "reason_text": "大多创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "actors": [
+        {
+          "follow_interest": {
+            "is_followed": 1,
+            "interest_type": 1
+          },
+          "name": "阅读",
+          "url": "https:\/\/api.zhihu.com\/topics\/19550564",
+          "excerpt": "",
+          "introduction": "",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/3f30afdfc_s.jpg",
+          "type": "topic",
+          "id": "19550564"
+        }
+      ],
+      "attached_info": "CmkIk43YwfGV3OsFEAQaCDY3MjQ1NzA5ILL55csFKLIMMLwBQAlKEwoBVBIDMTEzGIiz+rnYKyABKAJSGXRvcGljX2Fja25vd2xlZGdlZF9hbnN3ZXJaCDE3MjkwMjQwcgkyMDQ0NjA0OTc=",
+      "offset": 9,
+      "created_time": 1501212598,
+      "type": "feed",
+      "id": "9_1501212624.31"
+    },
+    {
+      "count": 1,
+      "target": {
+        "updated": 1501066364,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "青雀",
+          "headline": "有什么不懂的你尽管吻我",
+          "url_token": "GreenFinch",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/aeb3973fe52774c84f40361c4f3e98a8",
+          "avatar_url": "https:\/\/pic3.zhimg.com\/50\/e90c0ec10774d03c2195be6a1c172336_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 0,
+          "badge": [],
+          "id": "aeb3973fe52774c84f40361c4f3e98a8"
+        },
+        "excerpt": "今天有篇负能量满满的微博火了。 35岁，你因为身体越来越差，加班越来越少，晋升的速度也越来越缓慢。 那天下班，媳妇告诉你 孩子要上幼儿园了，双语的一个月3000，你皱了皱眉头，那边就已经不耐烦了。 “四单元的老王家孩子，一个月6000” “你已经这样了，你想让孩子也输？” 你没说话，回屋给媳妇转了6000块钱，这笔钱，你原本打算给自己过个生日，买个新电脑。 44岁，孩子上了初中，有一天回到家，她对你说 爸爸，我想学钢琴…",
+        "id": 28127528,
+        "voteup_count": 327,
+        "upvoted_followees": [],
+        "created": 1501062965,
+        "url": "https:\/\/api.zhihu.com\/articles\/28127528",
+        "comment_permission": "all",
+        "title": "谁允许你说我的人生丧了？",
+        "preview_type": "default",
+        "content": "<p>今天有篇负能量满满的微博火了。<\/p><p><br><\/p><blockquote>35岁，你因为身体越来越差，加班越来越少，晋升的速度也越来越缓慢。<br>那天下班，媳妇告诉你 孩子要上幼儿园了，双语的一个月3000，你皱了皱眉头，那边就已经不耐烦了。<br>“四单元的老王家孩子，一个月6000” “你已经这样了，你想让孩子也输？” 你没说话，回屋给媳妇转了6000块钱，这笔钱，你原本打算给自己过个生日，买个新电脑。<br><br>44岁，孩子上了初中，有一天回到家，她对你说 爸爸，我想学钢琴，你没什么犹豫的，你以为这些年，你已经习惯了。<br>但那句“爸爸现在买不起”你始终说不出口，好在孩子比较懂事，她说：爸爸没事，要不我先学陶笛也可以，你看着这么懂事的孩子，却开心不起来。<br><br>50岁，孩子上了大学 很争气，是一个一本，他学的专业你有点看不懂，你只知道工作不一定好找，而且学费还死贵，你和他深夜想聊聊，准备了半斤白酒，一碟花生米，你说着那些曾经你最讨厌的话：<br>还是要为以后工作着想，挑个热门的专业，活着比热爱重要。<br><br>你们从交流变成了争吵，你发现，你老了 老到可能都打不过这个18岁的孩子，你说不过他，只能说一句：我是你爸爸！ <br>孩子看着你，知道再怎么争辩都没用，这场确立你最后威严的酒局不欢而散。 <br>你听的不真切，在孩子回自己屋的路上好像叨叨了一句 “我不想活的像你一样”<br>怎么就哭了呢？50岁的人了 一定是酒太辣了，对不对 一定是酒太辣了。<br><br>60岁，辛苦了一辈子，想出去走走，身边的那个人过了30年，你依旧分不清到底喜不喜欢。 你们开始规划旅游路线，这么多年了，你们还是存在分歧，还是在争吵 某个瞬间，你觉得这样可能也挺好。<br><br>一切都准备好了<br>儿子说：爸妈，我工作太忙了<br>可以帮我照顾一下孩子么<br>你们退了机票，又回到了30年前<br><br>75岁，你在医院的病床上 身边聚满了人，你迷迷糊糊的看见医生摇了摇头，周围那些人神情肃穆，你明白了，你要死掉了 你没有感到一丝害怕 你突然问自己，我到底是什么时候死掉的呢？ <br><br>你想起来30岁的那场婚礼，原来，那时候，你就死掉了吧。突然你笑了，原来已经回到了15岁的那一年，你看见一个男孩，他叼着一袋牛奶，背着书包，从另一个女孩家的阳台下跑过，那个男孩朝窗户里看了看，那是15岁的你暗恋的那个女孩子。<\/blockquote><p><br><\/p><p>篇幅太长，我节选了一部分，发微博的那个人不是原作者，他也没标明原作者是谁，所以我就不写他的名字了。<\/p><p><br><\/p><p>底下一群二十出头的小姑娘，才刚踏进人生的门槛，就对未来丧失了信心，那些才刚开始为事业打拼的小伙子，仿佛看到了今后的人生，眼前的努力失去了意义。<\/p><p><br><\/p><p>这其实不是结不结婚或者生不生小孩的问题，就算主人公单身，作者也能写出另一个版本的丧。<\/p><p><b>他是刻意地挑拣出了普通人人生中常见的难关，然后编排成一个人的一生，同时把这些负面的现象，营造出一种无可奈何的情绪，让人对主人公心生同情又产生代入感。<\/b><\/p><p><br><\/p><p>依赖网络社区的人，很容易变成丧气收集器，因为负面情绪能更广泛地传播，让人印象深刻。<\/p><p><br><\/p><p>你上微博，看到的都是：<\/p><p>女朋友背着我跟富二代约炮<\/p><p>男朋友手机里下了约炮软件然而跟我说只是玩玩<\/p><p>怀孕半年老公出去偷吃还说解决需求.......<\/p><p><br><\/p><p>你恋爱没谈多少，就开始对感情失去信心，对婚姻充满恐惧，还没到谈婚论嫁的年纪，就信誓旦旦想要不婚、想要丁克。<\/p><p><b>以为不结婚就此可以避开悲剧的人生。<\/b><\/p><p>最后看到那些描述孤独的小漫画，你兴致勃勃地转发，说“是我是我”。<\/p><p><br><\/p><p>你上知乎，打开职业规划问题：<\/p><p>答主要么是大学就白手起家开了公司<\/p><p>要么高等学府毕业直接进了500强<\/p><p>要么全年到处旅游<\/p><p>他们好像都在做自己喜欢的事。<\/p><p><br><\/p><p>你看着自己，中等姿色、中等学历、没有背景。<\/p><p><b>在不知道能不能久留的公司拼命干活，在不知道能不能扎根的城市得过且过。<\/b><\/p><p>不知道自己的未来在哪，惶惶不安。<\/p><p><br><\/p><p>你上新闻：<\/p><p>看到的被殴打的女游客至今没有妥善处理<\/p><p>被囚禁的拐卖女性杳无音信一删再删<\/p><p>火灾的物业至今没有正面回应<\/p><p>大学的性侵消息就此消失<\/p><p>好多你喜欢的美剧日剧突然下架......<\/p><p><br><\/p><p><b>你忧国忧民又无能为力，感觉对这个社会好失望。<\/b><\/p><p><br><\/p><p><br><\/p><p><b>传达负面情绪、发布负面新闻并没有错，有负能量的时候，宣泄出来是一个好的解决方法，而且新闻要求的就是真相，不是粉饰太平。<\/b><\/p><p>没有人能一直开心，对生活永远都充满积极态度的，是微商和传销。但偶尔的丧，并不是人生的全部。<\/p><p><br><\/p><p>容易被负能量影响的怎样的人呢？<\/p><p><br><\/p><p><b>是意志力薄弱的人，<\/b>他们经不起这样负面情绪的煽动，很容易代入其中，对自我产生怀疑。<\/p><p><b>他们也有些懦弱，<\/b>把人生的无望当成一种普遍而长久的现象，不去反思产生的原因以及解决的方法。<\/p><p><b>他们还有些无能，<\/b>把自己遇到的问题归结是环境的因素、是广泛的现象，说是无能为力无可奈何，实则坐以待毙无动于衷。<\/p><p><br><\/p><p><br><\/p><p><b>坏的是那些别有用心的人，收集这些负面信息，有选择性地、片面地、夸大地描述出一段毫无希望毫无生机的人生，让你信以为真，联想到自己碰到过的挫折，觉得人生无望，转发点赞。<\/b><\/p><p>就像装作残疾的乞丐来找你讨钱，你心善，见不得苦难，给了他钱。你一转身，他就健步如飞欢天喜地去下一个地方继续卖惨了，而你还在心心念念地记挂着那个残疾的乞丐，哀叹人生的不幸。<\/p><p><br><\/p><p>这些人并不是在无病呻吟，他们是有病，但是他不告诉你是什么病，为什么病了，要怎么医治，他就躺那儿呻吟给你看。<\/p><p><b>哪怕是蚊子咬了一口，都能给你演出绝症的排场。<\/b><\/p><p>然后跟你说，你看吧，人生就是这么令人绝望的，你就信以为真了。<\/p><p><br><\/p><p><br><\/p><p>丧气无处不在，出门下雨、上班堵车、加班熬夜、很久也没有狠心结账的购物车、父母变老、孩子长大.....<\/p><p>你不知道自己怎么突然就长成了大人，肩上多了好多责任。<\/p><p><br><\/p><p>但是正因为有雨天，晴天才会让人心情愉悦<\/p><p>因为有堵车，空荡荡的地铁才特别好看<\/p><p>加班熬夜，周末的懒觉格外舒服<\/p><p>没钱剁手，双十一抢到红包才那么开心<\/p><p>父母变老，他们终于有时间可以做自己想做的事<\/p><p>孩子长大，你能看到一个从你身体里剥离的生命的成长<\/p><p><br><\/p><p><b>因为有丧气，才能让那些快乐的事变得特别简单，能有小确幸体会的，都是你我这种不能再平凡的普通人。<\/b><\/p><p>我收到一个五块的红包都能很开心，王思聪你给他五万他都未必高兴。<\/p><p><br><\/p><p>翻不过的山，就绕着走，不要往山脚下一趟，说：你压死我得了。<\/p><p><br><\/p><p>首发于：电波发射基站<\/p><p>禁止转载<\/p><p><br><\/p><p><br><\/p><img src=\"https:\/\/pic3.zhimg.com\/v2-1acc3e847068ad4d8e3782b20a581b46_b.jpg\" data-rawwidth=\"776\" data-rawheight=\"524\" class=\"origin_image zh-lightbox-thumb\" width=\"776\" data-original=\"https:\/\/pic3.zhimg.com\/v2-1acc3e847068ad4d8e3782b20a581b46_r.jpg\"><p><\/p>",
+        "comment_count": 44,
+        "image_url": "https:\/\/pic3.zhimg.com\/50\/v2-ec11f503419dc85b03810234d124ae3e_hd.jpg",
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "excerpt_new": "今天有篇负能量满满的微博火了。 35岁，你因为身体越来越差，加班越来越少，晋升的速度也越来越缓慢。 那天下班，媳妇告诉你 孩子要上幼儿园了，双语的一个月3000，你皱了皱眉头，那边就已经不耐烦了。 “四单元的老王家孩子，一个月6000” “你已经这样了，你…",
+        "excerpt_title": "",
+        "preview_text": "",
+        "voting": 0,
+        "type": "article"
+      },
+      "show_actor_time": false,
+      "action_text_tpl": "来自话题:{}",
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 28127528}",
+      "updated_time": 1501212128,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19551147",
+          "reason_text": "生活",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19566933",
+          "reason_text": "社会",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19552430",
+          "reason_text": "情感",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "aeb3973fe52774c84f40361c4f3e98a8",
+          "reason_text": "青雀创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "actors": [
+        {
+          "follow_interest": {
+            "is_followed": 1,
+            "interest_type": 1
+          },
+          "name": "情感",
+          "url": "https:\/\/api.zhihu.com\/topics\/19552430",
+          "excerpt": "",
+          "introduction": "",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/a541b01d4_s.jpg",
+          "type": "topic",
+          "id": "19552430"
+        }
+      ],
+      "attached_info": "Cl0Ik43YwfGV3OsFEAcaBzM0Mzg2MjIgtc7hywUoxwIwLEAKShMKAVQSAzc0MBiIs\/q52CsgASgCUhp0b3BpY19hY2tub3dsZWRnZWRfYXJ0aWNsZXIIMjgxMjc1Mjg=",
+      "offset": 10,
+      "created_time": 1501212128,
+      "type": "feed",
+      "id": "10_1501212624.31"
+    },
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": []
+        },
+        "mark_infos": [],
+        "excerpt": "大一上学期在经历了几个星期的大学新生活之后，用Delphi给自己做了一个记账软件，用于衡量自己的花费，正确分配老爸给的生活费。高中的时候曾经给Windows XP做了个软件，大概是浮动在屏幕上方的一个工具栏，里面有各种闲杂功能。后来慢慢升级，就有什么可编程的提醒功能啊，主要记录了一堆妹纸的生日（逃。还有一个按钮用来打开那个记账软件。总的来说，我觉得自己做的这几个东西超级好用。不过后来同样的功能，慢慢被新的Window…",
+        "created_time": 1501170305,
+        "preview_type": "expand",
+        "id": 204746848,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "vczh",
+          "headline": "专业造轮子，拉黑抢前排。gaclib.net",
+          "url_token": "excited-vczh",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/0970f947b898ecc0ec035f9126dd4e08",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/3a6c25ac3864540e80cdef9bc2a73900_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "0970f947b898ecc0ec035f9126dd4e08"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/204746848",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "王坤",
+            "headline": "属猴的程序猿",
+            "url_token": "wisky",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/4586db46db1f6fc662b6154f5ba96b6b",
+            "avatar_url": "https:\/\/pic4.zhimg.com\/50\/d0181793a9f547e0fb8eeafd9920245b_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "id": "4586db46db1f6fc662b6154f5ba96b6b"
+          },
+          "created": 1424851973,
+          "url": "https:\/\/api.zhihu.com\/questions\/28361295",
+          "title": "你有哪些用计算机技能解决生活问题的经历？",
+          "answer_count": 770,
+          "bound_topic_ids": [
+            16440,
+            707,
+            1746,
+            1771,
+            1354
+          ],
+          "comment_count": 27,
+          "is_following": false,
+          "follower_count": 29302,
+          "type": "question",
+          "id": 28361295
+        },
+        "updated_time": 1501170379,
+        "content": "<p>大一上学期在经历了几个星期的大学新生活之后，用Delphi给自己做了一个记账软件，用于衡量自己的花费，正确分配老爸给的生活费。<\/p><p>高中的时候曾经给Windows XP做了个软件，大概是浮动在屏幕上方的一个工具栏，里面有各种闲杂功能。后来慢慢升级，就有什么可编程的提醒功能啊，主要记录了一堆妹纸的生日（逃。还有一个按钮用来打开那个记账软件。<\/p><p>总的来说，我觉得自己做的这几个东西超级好用。不过后来同样的功能，慢慢被新的Windows以完全不同的形式覆盖了，我也就不更新了。代码也不知道哪里去了。<\/p>",
+        "comment_count": 59,
+        "voteup_count": 216,
+        "reshipment_settings": "allowed",
+        "thanks_count": 36,
+        "excerpt_new": "大一上学期在经历了几个星期的大学新生活之后，用Delphi给自己做了一个记账软件，用于衡量自己的花费，正确分配老爸给的生活费。 高中的时候曾经给Windows XP做了个软件，大概是浮动在屏幕上方的一个工具栏，里面有各种闲杂功能。后来慢慢升级，就有什么可编程…",
+        "preview_text": "大一上学期在经历了几个星期的大学新生活之后，用Delphi给自己做了一个记账软件，用于衡量自己的花费，正确分配老爸给的生活费。\n高中的时候曾经给Windows XP做了个软件，大概是浮动在屏幕上方的一个工具栏，里面有各种闲杂功能。后来慢慢升级，就有什么可编程的提醒功能啊，主要记录了一堆妹纸的生日（逃。还有一个按钮用来打开那个记账软件。\n总的来说，我觉得自己做的这几个东西超级好用。不过后来同样的功能，慢慢被新的Windows以完全不同的形式覆盖了，我也就不更新了。代码也不知道哪里去了。",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": ""
+      },
+      "show_actor_time": true,
+      "action_text_tpl": "{}回答了问题",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 204746848}",
+      "updated_time": 1501170305,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19555547",
+          "reason_text": "计算机",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19555480",
+          "reason_text": "大学生",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19552330",
+          "reason_text": "程序员",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19599444",
+          "reason_text": "计算机专业",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "0970f947b898ecc0ec035f9126dd4e08",
+          "reason_text": "vczh 创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "MEMBER_ANSWER_QUESTION",
+      "actors": [
+        {
+          "is_followed": false,
+          "type": "people",
+          "name": "vczh",
+          "headline": "专业造轮子，拉黑抢前排。gaclib.net",
+          "url_token": "excited-vczh",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/0970f947b898ecc0ec035f9126dd4e08",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/3a6c25ac3864540e80cdef9bc2a73900_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "0970f947b898ecc0ec035f9126dd4e08"
+        }
+      ],
+      "attached_info": "CmYIk43YwfGV3OsFEAQaCDY3Mjk3NzE1IIGV6MsFKNgBMDtAC0oVCgFNEgU2NjE1NxiIs\/q52CsgASgCUhZtZW1iZXJfYW5zd2VyX3F1ZXN0aW9uWgczNTI3MTk1cgkyMDQ3NDY4NDg=",
+      "offset": 11,
+      "created_time": 1501170305,
+      "type": "feed",
+      "id": "11_1501212624.31"
+    },
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": []
+        },
+        "mark_infos": [],
+        "excerpt": "简单。情侣双方，在学术问题上有分歧，要不要查证，要不要分对错？要！真理不能妥协，真相只有一个！就算是老婆说的，也不能盲从，一定要查证，绝不含糊。分出对错了，伤感情了，怎么办？打屁股。对的人打，错的人挨，谁叫你学艺不精呢？这就是来自真理的惩罚。打的人解气消恨，虎虎生风；挨的人活血化淤，欲拒还迎。即舒展了筋骨，又有了生活情趣，气氛也活跃起来...李大钊说过，年轻人呀，要会学，也要会玩。",
+        "created_time": 1500941163,
+        "preview_type": "expand",
+        "id": 203293604,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "ze ran",
+          "headline": "less is more",
+          "url_token": "ze.ran",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/13ba78a859eaf6b9a5b27c5c56ee8419",
+          "avatar_url": "https:\/\/pic2.zhimg.com\/50\/v2-2ef7f1bdfcf4fd26e7c7e715b7e6b8ad_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "topics": [],
+              "type": "best_answerer",
+              "description": "优秀回答者"
+            }
+          ],
+          "id": "13ba78a859eaf6b9a5b27c5c56ee8419"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/203293604",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "TC130",
+            "headline": "梦游深度患者",
+            "url_token": "hu-cong-57",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/ce7ecb787b47550c9f122637c97f87d6",
+            "avatar_url": "https:\/\/pic1.zhimg.com\/50\/d45a965e34faf1fc9e25cd86964129f8_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "id": "ce7ecb787b47550c9f122637c97f87d6"
+          },
+          "created": 1500738599,
+          "url": "https:\/\/api.zhihu.com\/questions\/62807997",
+          "title": "为什么在女朋友告诉我问题答案后，我相信她但我仍然想要去看书查证？",
+          "answer_count": 125,
+          "bound_topic_ids": [
+            47282,
+            4729,
+            1576,
+            14369,
+            115410
+          ],
+          "comment_count": 20,
+          "is_following": false,
+          "follower_count": 477,
+          "type": "question",
+          "id": 62807997
+        },
+        "updated_time": 1500941164,
+        "content": "<p>简单。<\/p><p>情侣双方，在学术问题上有分歧，要不要查证，要不要分对错？<\/p><p>要！<\/p><p>真理不能妥协，真相只有一个！就算是老婆说的，也不能盲从，一定要查证，绝不含糊。<\/p><p>分出对错了，伤感情了，怎么办？<\/p><p>打屁股。<\/p><p>对的人打，错的人挨，谁叫你学艺不精呢？这就是来自真理的惩罚。<\/p><p>打的人解气消恨，虎虎生风；挨的人活血化淤，欲拒还迎。即舒展了筋骨，又有了生活情趣，气氛也活跃起来...<\/p><p>李大钊说过，年轻人呀，要会学，也要会玩。<\/p><p><\/p><p><\/p><p><\/p>",
+        "comment_count": 37,
+        "voteup_count": 341,
+        "reshipment_settings": "allowed",
+        "thanks_count": 27,
+        "excerpt_new": "简单。 情侣双方，在学术问题上有分歧，要不要查证，要不要分对错？ 要！ 真理不能妥协，真相只有一个！就算是老婆说的，也不能盲从，一定要查证，绝不含糊。 分出对错了，伤感情了，怎么办？ 打屁股。 对的人打，错的人挨，谁叫你学艺不精呢？这就是来自真理的…",
+        "preview_text": "简单。\n情侣双方，在学术问题上有分歧，要不要查证，要不要分对错？\n要！\n真理不能妥协，真相只有一个！就算是老婆说的，也不能盲从，一定要查证，绝不含糊。\n分出对错了，伤感情了，怎么办？\n打屁股。\n对的人打，错的人挨，谁叫你学艺不精呢？这就是来自真理的惩罚。\n打的人解气消恨，虎虎生风；挨的人活血化淤，欲拒还迎。即舒展了筋骨，又有了生活情趣，气氛也活跃起来...\n李大钊说过，年轻人呀，要会学，也要会玩。",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": ""
+      },
+      "show_actor_time": true,
+      "action_text_tpl": "{}回答了问题",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 203293604}",
+      "updated_time": 1500941170,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19593368",
+          "reason_text": "交际",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19554945",
+          "reason_text": "心理",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19564412",
+          "reason_text": "恋爱",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19691659",
+          "reason_text": "恋人相处",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "13ba78a859eaf6b9a5b27c5c56ee8419",
+          "reason_text": "ze ran 创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "MEMBER_ANSWER_QUESTION",
+      "actors": [
+        {
+          "is_followed": false,
+          "type": "people",
+          "name": "ze ran",
+          "headline": "less is more",
+          "url_token": "ze.ran",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/13ba78a859eaf6b9a5b27c5c56ee8419",
+          "avatar_url": "https:\/\/pic2.zhimg.com\/50\/v2-2ef7f1bdfcf4fd26e7c7e715b7e6b8ad_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "13ba78a859eaf6b9a5b27c5c56ee8419"
+        }
+      ],
+      "attached_info": "CmkIk43YwfGV3OsFEAQaCDY3MDMzODQ2IOuW2ssFKNUCMCVADEoXCgFNEgczOTg2OTgzGIiz+rnYKyABKAJSFm1lbWJlcl9hbnN3ZXJfcXVlc3Rpb25aCDE3MzQ4NDc5cgkyMDMyOTM2MDQ=",
+      "offset": 12,
+      "created_time": 1500941170,
+      "type": "feed",
+      "id": "12_1501212624.31"
+    },
+    {
+      "count": 1,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": []
+        },
+        "mark_infos": [],
+        "excerpt": "迄今创业5次，私以为创始人的工资应该在 不影响生活的最低工资~行业优秀人材平均薪酬 之间浮动，过低过高都不好 浮动的依据是公司当时的运营情况。",
+        "created_time": 1500874886,
+        "preview_type": "no_expand",
+        "id": 202941962,
+        "is_copyable": true,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "钢的琴",
+          "headline": "编程20年的全站(Full Stand)工程师",
+          "url_token": "gang-de-qin-59",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/5ecd83700b3830115d5b8f0f09f9390f",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/v2-2c8e1bff84d0ebf552ff73eba3c8719c_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "5ecd83700b3830115d5b8f0f09f9390f"
+        },
+        "url": "https:\/\/api.zhihu.com\/answers\/202941962",
+        "comment_permission": "all",
+        "question": {
+          "author": {
+            "is_followed": false,
+            "type": "people",
+            "name": "Ven",
+            "headline": "拆盒-重新认识玩具：www.chaihezi.com",
+            "url_token": "blueven",
+            "user_type": "people",
+            "url": "https:\/\/api.zhihu.com\/people\/1af7ccf0f5bcdd5982b7798a9431c67f",
+            "avatar_url": "https:\/\/pic4.zhimg.com\/50\/c2022e0c7_s.jpg",
+            "is_following": false,
+            "is_org": false,
+            "gender": 1,
+            "badge": [],
+            "id": "1af7ccf0f5bcdd5982b7798a9431c67f"
+          },
+          "created": 1413345269,
+          "url": "https:\/\/api.zhihu.com\/questions\/26039602",
+          "title": "创业公司如何确定合伙人的薪资？",
+          "answer_count": 12,
+          "bound_topic_ids": [
+            12452,
+            112,
+            18459,
+            5
+          ],
+          "comment_count": 0,
+          "is_following": false,
+          "follower_count": 118,
+          "type": "question",
+          "id": 26039602
+        },
+        "updated_time": 1500874886,
+        "content": "迄今创业5次，私以为创始人的工资应该在<br><br>不影响生活的最低工资~行业优秀人材平均薪酬 之间浮动，过低过高都不好<br><br>浮动的依据是公司当时的运营情况。",
+        "comment_count": 1,
+        "voteup_count": 7,
+        "reshipment_settings": "allowed",
+        "thanks_count": 0,
+        "excerpt_new": "迄今创业5次，私以为创始人的工资应该在\n\n不影响生活的最低工资~行业优秀人材平均薪酬 之间浮动，过低过高都不好\n\n浮动的依据是公司当时的运营情况。",
+        "preview_text": "",
+        "can_comment": {
+          "status": true,
+          "reason": ""
+        },
+        "type": "answer",
+        "thumbnail": ""
+      },
+      "show_actor_time": true,
+      "action_text_tpl": "{}回答了问题",
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 202941962}",
+      "updated_time": 1500874888,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550234",
+          "reason_text": "创业公司",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19605446",
+          "reason_text": "薪酬待遇",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19550560",
+          "reason_text": "创业",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19587634",
+          "reason_text": "IT 行业",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "5ecd83700b3830115d5b8f0f09f9390f",
+          "reason_text": "钢的琴创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "MEMBER_ANSWER_QUESTION",
+      "actors": [
+        {
+          "is_followed": false,
+          "type": "people",
+          "name": "钢的琴",
+          "headline": "编程20年的全站(Full Stand)工程师",
+          "url_token": "gang-de-qin-59",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/5ecd83700b3830115d5b8f0f09f9390f",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/v2-2c8e1bff84d0ebf552ff73eba3c8719c_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "5ecd83700b3830115d5b8f0f09f9390f"
+        }
+      ],
+      "attached_info": "CmgIk43YwfGV3OsFEAQaCDY2OTY5ODgwIIaR1ssFKAcwAUANShgKAU0SCDU0NjcyMzQwGIiz+rnYKyABKAJSFm1lbWJlcl9hbnN3ZXJfcXVlc3Rpb25aBzI1OTg3NjhyCTIwMjk0MTk2Mg==",
+      "offset": 13,
+      "created_time": 1500874888,
+      "type": "feed",
+      "id": "13_1501212624.31"
+    },
+    {
+      "count": 2,
+      "target": {
+        "updated": 1501114216,
+        "author": {
+          "is_followed": false,
+          "type": "people",
+          "name": "王爵nice",
+          "headline": "每天都写代码的小程序员",
+          "url_token": "biezhi",
+          "user_type": "people",
+          "url": "https:\/\/api.zhihu.com\/people\/0ff2cdabf81790c498a53e31e2c43219",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/v2-667079f435ce7783a8f964433920efa8_s.jpg",
+          "is_following": false,
+          "is_org": false,
+          "gender": 1,
+          "badge": [],
+          "id": "0ff2cdabf81790c498a53e31e2c43219"
+        },
+        "excerpt": "当你开始使用Java操作日期和时间的时候，会有一些棘手。你也许会通过<b>System.currentTimeMillis()<\/b> 来返回1970年1月1日到今天的毫秒数。或者使用Date类来操作日期；当遇到加减月份、天数的时候 你又需要用到Calendar类；当需要格式化日期的时候需要使用java.text.DateFormat类。 总而言之在Java中操作日期不是很方便，以至于很多开发者不得不使用第三方库，比如: <a href=\"http:\/\/link.zhihu.com\/?target=http%3A\/\/joda-time.sourceforge.net\/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">joda-time<i class=\"icon-external\"><\/i><\/a>现有API存在的问题线程安全: Date和Calendar不是线程安全…",
+        "id": 28133858,
+        "voteup_count": 46,
+        "upvoted_followees": [],
+        "created": 1501114216,
+        "url": "https:\/\/api.zhihu.com\/articles\/28133858",
+        "comment_permission": "censor",
+        "title": "跟上Java8 - 日期和时间实用技巧",
+        "preview_type": "default",
+        "content": "<p>当你开始使用Java操作日期和时间的时候，会有一些棘手。你也许会通过<b>System.currentTimeMillis()<\/b><br>来返回1970年1月1日到今天的毫秒数。或者使用Date类来操作日期；当遇到加减月份、天数的时候<br>你又需要用到Calendar类；当需要格式化日期的时候需要使用java.text.DateFormat类。<br>总而言之在Java中操作日期不是很方便，以至于很多开发者不得不使用第三方库，比如: <a href=\"http:\/\/link.zhihu.com\/?target=http%3A\/\/joda-time.sourceforge.net\/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">joda-time<i class=\"icon-external\"><\/i><\/a><\/p><h2>现有API存在的问题<\/h2><ul><li>线程安全: Date和Calendar不是线程安全的，你需要编写额外的代码处理线程安全问题<\/li><li>API设计和易用性: 由于Date和Calendar的设计不当你无法完成日常的日期操作<\/li><li>ZonedDate和Time: 你必须编写额外的逻辑处理时区和那些旧的逻辑<\/li><\/ul><p>好在<a href=\"http:\/\/link.zhihu.com\/?target=http%3A\/\/jcp.org\/en\/jsr\/detail%3Fid%3D310\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">JSR 310<i class=\"icon-external\"><\/i><\/a>规范中为Java8添加了新的API，<br>在java.time包中，新的API纠正了过去的缺陷，<\/p><h2>新的日期API<\/h2><ul><li>ZoneId: 时区ID，用来确定Instant和LocalDateTime互相转换的规则<\/li><li>Instant: 用来表示时间线上的一个点<\/li><li>LocalDate: 表示没有时区的日期, LocalDate是不可变并且线程安全的<\/li><li>LocalTime: 表示没有时区的时间, LocalTime是不可变并且线程安全的<\/li><li>LocalDateTime: 表示没有时区的日期时间, LocalDateTime是不可变并且线程安全的<\/li><li>Clock: 用于访问当前时刻、日期、时间，用到时区<\/li><li>Duration: 用秒和纳秒表示时间的数量<\/li><\/ul><p>最常用的就是LocalDate、LocalTime、LocalDateTime了，从它们的名字就可以看出是操作日期<br>和时间的。这些类是主要用于当时区不需要显式地指定的上下文。在本章节中我们将讨论最常用的api。<\/p><h2>LocalDate<\/h2><p>LocalDate代表一个IOS格式(yyyy-MM-dd)的日期，可以存储 生日、纪念日等日期。<br>获取当前的日期：<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDate<\/span> <span class=\"n\">localDate<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"localDate: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">localDate<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>输出<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"nl\">localDate:<\/span> <span class=\"mi\">2017<\/span><span class=\"o\">-<\/span><span class=\"mi\">07<\/span><span class=\"o\">-<\/span><span class=\"mi\">20<\/span>\n<\/code><\/pre><\/div><p>LocalDate可以指定特定的日期，调用of或parse方法返回该实例：<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">of<\/span><span class=\"o\">(<\/span><span class=\"mi\">2017<\/span><span class=\"o\">,<\/span> <span class=\"mi\">07<\/span><span class=\"o\">,<\/span> <span class=\"mi\">20<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20\"<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>当然它还有一些其他方法，我们一起来看看：<\/p><p><b>为今天添加一天，也就是获取明天<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDate<\/span> <span class=\"n\">tomorrow<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">().<\/span><span class=\"na\">plusDays<\/span><span class=\"o\">(<\/span><span class=\"mi\">1<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p><b>从今天减去一个月<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDate<\/span> <span class=\"n\">prevMonth<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">().<\/span><span class=\"na\">minus<\/span><span class=\"o\">(<\/span><span class=\"mi\">1<\/span><span class=\"o\">,<\/span> <span class=\"n\">ChronoUnit<\/span><span class=\"o\">.<\/span><span class=\"na\">MONTHS<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>下面写两个例子，分别解析日期 <b>2017-07-20<\/b>，获取每周中的星期和每月中的日：<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">DayOfWeek<\/span> <span class=\"n\">thursday<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20\"<\/span><span class=\"o\">).<\/span><span class=\"na\">getDayOfWeek<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"周四: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">thursday<\/span><span class=\"o\">);<\/span>\n<span class=\"kt\">int<\/span> <span class=\"n\">twenty<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20\"<\/span><span class=\"o\">).<\/span><span class=\"na\">getDayOfMonth<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"twenty: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">twenty<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>试试今年是不是闰年:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"kt\">boolean<\/span> <span class=\"n\">leapYear<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">().<\/span><span class=\"na\">isLeapYear<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"是否闰年: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">leapYear<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>判断是否在日期之前或之后:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"kt\">boolean<\/span> <span class=\"n\">notBefore<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20\"<\/span><span class=\"o\">)<\/span>\n                <span class=\"o\">.<\/span><span class=\"na\">isBefore<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-22\"<\/span><span class=\"o\">));<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"notBefore: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">notBefore<\/span><span class=\"o\">);<\/span>\n<span class=\"kt\">boolean<\/span> <span class=\"n\">isAfter<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20\"<\/span><span class=\"o\">).<\/span><span class=\"na\">isAfter<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-22\"<\/span><span class=\"o\">));<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"isAfter: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">isAfter<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>获取这个月的第一天:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDate<\/span> <span class=\"n\">firstDayOfMonth<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20\"<\/span><span class=\"o\">)<\/span>\n                <span class=\"o\">.<\/span><span class=\"na\">with<\/span><span class=\"o\">(<\/span><span class=\"n\">TemporalAdjusters<\/span><span class=\"o\">.<\/span><span class=\"na\">firstDayOfMonth<\/span><span class=\"o\">());<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"这个月的第一天: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">firstDayOfMonth<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">firstDayOfMonth<\/span> <span class=\"o\">=<\/span> <span class=\"n\">firstDayOfMonth<\/span><span class=\"o\">.<\/span><span class=\"na\">withDayOfMonth<\/span><span class=\"o\">(<\/span><span class=\"mi\">1<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"这个月的第一天: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">firstDayOfMonth<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>判断今天是否是我的生日，例如我的生日是 <b>2009-07-20<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDate<\/span> <span class=\"n\">birthday<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">of<\/span><span class=\"o\">(<\/span><span class=\"mi\">2009<\/span><span class=\"o\">,<\/span> <span class=\"mi\">07<\/span><span class=\"o\">,<\/span> <span class=\"mi\">20<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">MonthDay<\/span> <span class=\"n\">birthdayMd<\/span> <span class=\"o\">=<\/span> <span class=\"n\">MonthDay<\/span><span class=\"o\">.<\/span><span class=\"na\">of<\/span><span class=\"o\">(<\/span><span class=\"n\">birthday<\/span><span class=\"o\">.<\/span><span class=\"na\">getMonth<\/span><span class=\"o\">(),<\/span> <span class=\"n\">birthday<\/span><span class=\"o\">.<\/span><span class=\"na\">getDayOfMonth<\/span><span class=\"o\">());<\/span>\n<span class=\"n\">MonthDay<\/span> <span class=\"n\">today<\/span> <span class=\"o\">=<\/span> <span class=\"n\">MonthDay<\/span><span class=\"o\">.<\/span><span class=\"na\">from<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">());<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"今天是否是我的生日: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">today<\/span><span class=\"o\">.<\/span><span class=\"na\">equals<\/span><span class=\"o\">(<\/span><span class=\"n\">birthdayMd<\/span><span class=\"o\">));<\/span>\n<\/code><\/pre><\/div><h2>LocalTime<\/h2><p>LocalTime表示一个时间，而不是日期，下面介绍一下它的使用方法。<\/p><p>获取现在的时间，输出<b>15:01:22.144<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalTime<\/span> <span class=\"n\">now<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"现在的时间: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">now<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>将一个字符串时间解析为<b>LocalTime<\/b>，输出15:02<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalTime<\/span> <span class=\"n\">nowTime<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"15:02\"<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"时间是: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">nowTime<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>使用静态方法<b>of<\/b>创建一个时间<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalTime<\/span> <span class=\"n\">nowTime<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">of<\/span><span class=\"o\">(<\/span><span class=\"mi\">15<\/span><span class=\"o\">,<\/span> <span class=\"mi\">02<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"时间是: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">nowTime<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>使用解析字符串的方式并添加一小时，输出<b>16:02<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalTime<\/span> <span class=\"n\">nextHour<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"15:02\"<\/span><span class=\"o\">).<\/span><span class=\"na\">plus<\/span><span class=\"o\">(<\/span><span class=\"mi\">1<\/span><span class=\"o\">,<\/span> <span class=\"n\">ChronoUnit<\/span><span class=\"o\">.<\/span><span class=\"na\">HOURS<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"下一个小时: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">nextHour<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>获取时间的小时、分钟<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"kt\">int<\/span> <span class=\"n\">hour<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"15:02\"<\/span><span class=\"o\">).<\/span><span class=\"na\">getHour<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"小时: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">hour<\/span><span class=\"o\">);<\/span>\n<span class=\"kt\">int<\/span> <span class=\"n\">minute<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"15:02\"<\/span><span class=\"o\">).<\/span><span class=\"na\">getMinute<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"分钟: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">minute<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>我们也可以通过之前类似的API检查一个时间是否在另一个时间之前、之后<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"kt\">boolean<\/span> <span class=\"n\">isBefore<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"15:02\"<\/span><span class=\"o\">).<\/span><span class=\"na\">isBefore<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"16:02\"<\/span><span class=\"o\">));<\/span>\n<span class=\"kt\">boolean<\/span> <span class=\"n\">isAfter<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"15:02\"<\/span><span class=\"o\">).<\/span><span class=\"na\">isAfter<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"16:02\"<\/span><span class=\"o\">));<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"isBefore: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">isBefore<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"isAfter: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">isAfter<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>输出<b> isBefore: true, isAfter: false<\/b>。<\/p><p>在LocalTime类中也将每天的开始和结束作为常量供我们使用:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">MAX<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalTime<\/span><span class=\"o\">.<\/span><span class=\"na\">MIN<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>输出:<\/p><div class=\"highlight\"><pre><code class=\"language-bash\">23:59:59.999999999\n00:00\n<\/code><\/pre><\/div><p>LocalTime就这些了，下面我们来了解一下LocalDateTime<\/p><h2>LocalDateTime<\/h2><p>LocalDateTime是用来表示日期和时间的，这是一个最常用的类之一。<\/p><p>获取当前的日期和时间:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDateTime<\/span> <span class=\"n\">now<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDateTime<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"现在: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">now<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>输出<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"err\">现在<\/span><span class=\"o\">:<\/span> <span class=\"mi\">2017<\/span><span class=\"o\">-<\/span><span class=\"mi\">07<\/span><span class=\"o\">-<\/span><span class=\"mi\">20<\/span><span class=\"nl\">T15:<\/span><span class=\"mi\">17<\/span><span class=\"o\">:<\/span><span class=\"mf\">19.926<\/span>\n<\/code><\/pre><\/div><p>下面使用静态方法和字符串的方式分别创建 <b>LocalDateTime <\/b>对象<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDateTime<\/span><span class=\"o\">.<\/span><span class=\"na\">of<\/span><span class=\"o\">(<\/span><span class=\"mi\">2017<\/span><span class=\"o\">,<\/span> <span class=\"n\">Month<\/span><span class=\"o\">.<\/span><span class=\"na\">JULY<\/span><span class=\"o\">,<\/span> <span class=\"mi\">20<\/span><span class=\"o\">,<\/span> <span class=\"mi\">15<\/span><span class=\"o\">,<\/span> <span class=\"mi\">18<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">LocalDateTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20T15:18:00\"<\/span><span class=\"o\">);<\/span>\n<span class=\"err\">``<\/span>\n<span class=\"err\">同时`<\/span><span class=\"n\">LocalDateTime<\/span><span class=\"err\">`也提供了相关<\/span><span class=\"n\">API<\/span><span class=\"err\">来对日期和时间进行增减操作<\/span><span class=\"o\">:<\/span>\n<span class=\"err\">```<\/span><span class=\"n\">java<\/span>\n<span class=\"n\">LocalDateTime<\/span> <span class=\"n\">tomorrow<\/span> <span class=\"o\">=<\/span> <span class=\"n\">now<\/span><span class=\"o\">.<\/span><span class=\"na\">plusDays<\/span><span class=\"o\">(<\/span><span class=\"mi\">1<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"明天的这个时间: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">tomorrow<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">LocalDateTime<\/span> <span class=\"n\">minusTowHour<\/span> <span class=\"o\">=<\/span> <span class=\"n\">now<\/span><span class=\"o\">.<\/span><span class=\"na\">minusHours<\/span><span class=\"o\">(<\/span><span class=\"mi\">2<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"两小时前: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">minusTowHour<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>这个类也提供一系列的get方法来获取特定单位:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">Month<\/span> <span class=\"n\">month<\/span> <span class=\"o\">=<\/span> <span class=\"n\">now<\/span><span class=\"o\">.<\/span><span class=\"na\">getMonth<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"当前月份: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">month<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><h2>日期格式化<\/h2><p>在日常开发中我们用到最多的也许就是日期、时间的格式化了，那在Java8种该如何操作呢？<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDateTime<\/span> <span class=\"n\">now<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDateTime<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">();<\/span>\n<span class=\"n\">DateTimeFormatter<\/span> <span class=\"n\">dateTimeFormatter<\/span> <span class=\"o\">=<\/span> <span class=\"n\">DateTimeFormatter<\/span><span class=\"o\">.<\/span><span class=\"na\">ofPattern<\/span><span class=\"o\">(<\/span><span class=\"s\">\"yyyy-MM-dd HH:mm:ss\"<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"默认格式化: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">now<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"自定义格式化: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">now<\/span><span class=\"o\">.<\/span><span class=\"na\">format<\/span><span class=\"o\">(<\/span><span class=\"n\">dateTimeFormatter<\/span><span class=\"o\">));<\/span>\n<span class=\"n\">LocalDateTime<\/span> <span class=\"n\">localDateTime<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDateTime<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20 15:27:44\"<\/span><span class=\"o\">,<\/span> <span class=\"n\">dateTimeFormatter<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"字符串转LocalDateTime: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">localDateTime<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>也可以使用<b>DateTimeFormatter<\/b>的<b>format<\/b>方法将日期、时间格式化为字符串<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">DateTimeFormatter<\/span> <span class=\"n\">dateTimeFormatter<\/span> <span class=\"o\">=<\/span> <span class=\"n\">DateTimeFormatter<\/span><span class=\"o\">.<\/span><span class=\"na\">ofPattern<\/span><span class=\"o\">(<\/span><span class=\"s\">\"yyyy-MM-dd\"<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">String<\/span> <span class=\"n\">dateString<\/span> <span class=\"o\">=<\/span> <span class=\"n\">dateTimeFormatter<\/span><span class=\"o\">.<\/span><span class=\"na\">format<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">());<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"日期转字符串: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">dateString<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><h2>日期周期<\/h2><p><b>Period<\/b>类用于修改给定日期或获得的两个日期之间的区别。<\/p><p>给初始化的日期添加5天:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDate<\/span> <span class=\"n\">initialDate<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">parse<\/span><span class=\"o\">(<\/span><span class=\"s\">\"2017-07-20\"<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">LocalDate<\/span> <span class=\"n\">finalDate<\/span>   <span class=\"o\">=<\/span> <span class=\"n\">initialDate<\/span><span class=\"o\">.<\/span><span class=\"na\">plus<\/span><span class=\"o\">(<\/span><span class=\"n\">Period<\/span><span class=\"o\">.<\/span><span class=\"na\">ofDays<\/span><span class=\"o\">(<\/span><span class=\"mi\">5<\/span><span class=\"o\">));<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"初始化日期: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">initialDate<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"加日期之后: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">finalDate<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>周期API中提供给我们可以比较两个日期的差别，像下面这样获取差距天数:<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"kt\">long<\/span> <span class=\"n\">between<\/span> <span class=\"o\">=<\/span> <span class=\"n\">ChronoUnit<\/span><span class=\"o\">.<\/span><span class=\"na\">DAYS<\/span><span class=\"o\">.<\/span><span class=\"na\">between<\/span><span class=\"o\">(<\/span><span class=\"n\">initialDate<\/span><span class=\"o\">,<\/span> <span class=\"n\">finalDate<\/span><span class=\"o\">);<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"s\">\"差距天数: \"<\/span> <span class=\"o\">+<\/span> <span class=\"n\">between<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p>上面的代码会返回5，当然你想获取两个日期相差多少小时也是简单的。<\/p><h2>与遗留代码转换<\/h2><p>在之前的代码中你可能出现了大量的Date类，如何将它转换为Java8种的时间类呢？<\/p><p><b>Date<\/b>和<b>Instant<\/b>互相转换<\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">Date<\/span> <span class=\"n\">date<\/span> <span class=\"o\">=<\/span> <span class=\"n\">Date<\/span><span class=\"o\">.<\/span><span class=\"na\">from<\/span><span class=\"o\">(<\/span><span class=\"n\">Instant<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">());<\/span>\n<span class=\"n\">Instant<\/span> <span class=\"n\">instant<\/span> <span class=\"o\">=<\/span> <span class=\"n\">date<\/span><span class=\"o\">.<\/span><span class=\"na\">toInstant<\/span><span class=\"o\">();<\/span>\n<\/code><\/pre><\/div><p><b>Date<\/b>转换为<b>LocalDateTime<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">LocalDateTime<\/span> <span class=\"n\">localDateTime<\/span> <span class=\"o\">=<\/span> <span class=\"n\">LocalDateTime<\/span><span class=\"o\">.<\/span><span class=\"na\">from<\/span><span class=\"o\">(<\/span><span class=\"k\">new<\/span> <span class=\"n\">Date<\/span><span class=\"o\">());<\/span>\n<span class=\"n\">System<\/span><span class=\"o\">.<\/span><span class=\"na\">out<\/span><span class=\"o\">.<\/span><span class=\"na\">println<\/span><span class=\"o\">(<\/span><span class=\"n\">localDateTime<\/span><span class=\"o\">);<\/span>\n<\/code><\/pre><\/div><p><b>LocalDateTime<\/b>转<b>Date<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">Date<\/span> <span class=\"n\">date<\/span> <span class=\"o\">=<\/span>\n    <span class=\"n\">Date<\/span><span class=\"o\">.<\/span><span class=\"na\">from<\/span><span class=\"o\">(<\/span><span class=\"n\">localDateTime<\/span><span class=\"o\">.<\/span><span class=\"na\">atZone<\/span><span class=\"o\">(<\/span><span class=\"n\">ZoneId<\/span><span class=\"o\">.<\/span><span class=\"na\">systemDefault<\/span><span class=\"o\">()).<\/span><span class=\"na\">toInstant<\/span><span class=\"o\">());<\/span>\n<\/code><\/pre><\/div><p><b>LocalDate<\/b>转<b>Date<\/b><\/p><div class=\"highlight\"><pre><code class=\"language-java\"><span class=\"n\">Date<\/span> <span class=\"n\">date<\/span> <span class=\"o\">=<\/span>\n    <span class=\"n\">Date<\/span><span class=\"o\">.<\/span><span class=\"na\">from<\/span><span class=\"o\">(<\/span><span class=\"n\">LocalDate<\/span><span class=\"o\">.<\/span><span class=\"na\">now<\/span><span class=\"o\">().<\/span><span class=\"na\">atStartOfDay<\/span><span class=\"o\">().<\/span><span class=\"na\">atZone<\/span><span class=\"o\">(<\/span><span class=\"n\">ZoneId<\/span><span class=\"o\">.<\/span><span class=\"na\">systemDefault<\/span><span class=\"o\">()).<\/span><span class=\"na\">toInstant<\/span><span class=\"o\">());<\/span>\n<\/code><\/pre><\/div><p><\/p>",
+        "column": {
+          "updated": 1501114516,
+          "last_article": {
+            "updated": 1501114216,
+            "created": 1501114216
+          },
+          "author": {
+            "headline": "",
+            "avatar_url": "https:\/\/pic2.zhimg.com\/aadd7b895_s.jpg",
+            "name": "匿名用户",
+            "url": "",
+            "url_token": "",
+            "type": "people",
+            "user_type": "people",
+            "id": "0"
+          },
+          "url": "https:\/\/api.zhihu.com\/columns\/java8",
+          "comment_permission": "all",
+          "title": "跟上Java8 - 带你实战Java8",
+          "intro": "快速跟上Java8学习新特性，学习Java8最佳实践",
+          "image_url": "https:\/\/pic4.zhimg.com\/v2-b400e24f851575dace09de80d7ed1bd3_r.jpg",
+          "is_following": false,
+          "type": "column",
+          "id": "java8"
+        },
+        "comment_count": 6,
+        "image_url": "https:\/\/pic3.zhimg.com\/50\/v2-202bd1338a5f7fe7ae6d9eb55977dd02_hd.jpg",
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "excerpt_new": "当你开始使用Java操作日期和时间的时候，会有一些棘手。你也许会通过System.currentTimeMillis() 来返回1970年1月1日到今天的毫秒数。或者使用Date类来操作日期；当遇到加减月份、天数的时候 你又需要用到Calendar类；当需要格式化日期的时候需要使用java.text…",
+        "excerpt_title": "",
+        "preview_text": "",
+        "voting": 0,
+        "type": "article"
+      },
+      "show_actor_time": false,
+      "action_text_tpl": "来自话题:{}",
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 28133858}",
+      "updated_time": 1501212607,
+      "uninterest_reasons": [
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19936714",
+          "reason_text": "Java 8",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19620553",
+          "reason_text": "Java EE",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "topic",
+          "reason_id": 3,
+          "object_token": "19561132",
+          "reason_text": "Java",
+          "object_type": "topic"
+        },
+        {
+          "reason_type": "creator",
+          "reason_id": 2,
+          "object_token": "0ff2cdabf81790c498a53e31e2c43219",
+          "reason_text": "王爵nice 创作的内容",
+          "object_type": "people"
+        }
+      ],
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "actors": [
+        {
+          "follow_interest": {
+            "is_followed": 1,
+            "interest_type": 1
+          },
+          "name": "Java EE",
+          "url": "https:\/\/api.zhihu.com\/topics\/19620553",
+          "excerpt": "",
+          "introduction": "",
+          "avatar_url": "https:\/\/pic1.zhimg.com\/50\/e43ed97a274f9f1b4746ae6fae26ce74_s.png",
+          "type": "topic",
+          "id": "19620553"
+        },
+        {
+          "follow_interest": {
+            "is_followed": 1,
+            "interest_type": 1
+          },
+          "name": "Java",
+          "url": "https:\/\/api.zhihu.com\/topics\/19561132",
+          "excerpt": "",
+          "introduction": "",
+          "avatar_url": "https:\/\/pic4.zhimg.com\/50\/7d343fb2f_s.jpg",
+          "type": "topic",
+          "id": "19561132"
+        }
+      ],
+      "attached_info": "CnsIk43YwfGV3OsFEAcaBzM0NDExNzQg6N7kywUoLjAGQA5KFQoBVBIFMjM1MjEYiLP6udgrIAEoAkoUCgFUEgQzNjQ2GIiz+rnYKyABKAJSGnRvcGljX2Fja25vd2xlZGdlZF9hcnRpY2xlWgU0Nzk4NXIIMjgxMzM4NTg=",
+      "offset": 14,
+      "created_time": 1501212607,
+      "type": "feed",
+      "id": "14_1501212624.31"
+    }
+  ],
+  "session_token": "ba009ce5e0015b0308b7a1bf10c2085a"
+}

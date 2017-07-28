@@ -1,12 +1,14 @@
 package cn.miss.client;
 
 import org.apache.http.client.CookieStore;
+import org.apache.http.config.Lookup;
 import org.apache.http.config.Registry;
 import org.apache.http.config.RegistryBuilder;
 import org.apache.http.conn.HttpClientConnectionManager;
 import org.apache.http.conn.socket.ConnectionSocketFactory;
 import org.apache.http.conn.ssl.NoopHostnameVerifier;
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import org.apache.http.cookie.CookieSpecProvider;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
@@ -47,21 +49,16 @@ public class CloseableHttpsClientBuilder {
         try {
             ctx = SSLContext.getInstance("TLS");
             ctx.init(null, new TrustManager[]{tm}, null);
-        } catch (KeyManagementException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         HttpClientBuilder builder = HttpClientBuilder.create();
         SSLConnectionSocketFactory sslConnectionFactory = new SSLConnectionSocketFactory(ctx,
                 NoopHostnameVerifier.INSTANCE);
         builder.setSSLSocketFactory(sslConnectionFactory);
-
         Registry<ConnectionSocketFactory> registry = RegistryBuilder.<ConnectionSocketFactory>create()
                 .register("https", sslConnectionFactory).build();
-
         HttpClientConnectionManager ccm1 = new BasicHttpClientConnectionManager(registry);
-
         builder.setConnectionManager(ccm1);
         builder.setDefaultCookieStore(cookieStore);
         return builder.build();
