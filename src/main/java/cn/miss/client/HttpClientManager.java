@@ -24,9 +24,10 @@ public class HttpClientManager {
     private String urlType;
     private String url;
     private String cookies;
+    private String outPath;
     private long speed;
     private Map<String, String> header = new HashMap<>();
-    private HttpEntity httpEntity = new HttpEntity();
+    private HttpEntity httpEntity;
     private HttpClientExecutor executor;
     private CallBack callback;
     private Thread thread;
@@ -37,6 +38,11 @@ public class HttpClientManager {
 
     public HttpClientManager setCallback(CallBack callback) {
         this.callback = callback;
+        return this;
+    }
+
+    public HttpClientManager setOutPath(String outPath) {
+        this.outPath = outPath;
         return this;
     }
 
@@ -78,12 +84,14 @@ public class HttpClientManager {
     public void start() {
         //开启全局开关
         ProjectFlag.flag = true;
+        httpEntity = new HttpEntity();
         if (cookies != null && !cookies.isEmpty()) {
             httpEntity.setCookie(Utils.getCookies(cookies));
         }
         httpEntity.setUrl(url);
         httpEntity.setMethod(method);
         httpEntity.setSpeed(speed);
+        httpEntity.setOutPath(outPath);
         Map<String, String> tempHeader = new HashMap<>();
         tempHeader.putAll(header);
         switch (browser) {

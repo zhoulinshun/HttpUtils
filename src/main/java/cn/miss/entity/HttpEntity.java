@@ -11,6 +11,7 @@ import java.util.Map;
 public class HttpEntity {
     private String url;
     private String method;
+    private String outPath;
     private List<Map<String,String>> param;
     private Map<String,String> header;
     private Map<String,String> cookie;
@@ -23,6 +24,14 @@ public class HttpEntity {
     }
 
     public HttpEntity() {
+    }
+
+    public String getOutPath() {
+        return outPath;
+    }
+
+    public void setOutPath(String outPath) {
+        this.outPath = outPath;
     }
 
     public long getSpeed() {

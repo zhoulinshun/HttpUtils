@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 
 /**
  * @Author MissNull
- * @Description: 煎蛋妹子图
+ * @Description: 煎蛋网
  * @Date: Created in 2017/8/1.
  */
 public class JDParse extends ParseString {
@@ -28,6 +28,7 @@ public class JDParse extends ParseString {
     private boolean isFirst = true;
     private String suff = "http://jandan.net/";
     private String pre = "jpg";
+    private String outPath;
 
     @Override
     public List<String> doParse(CloseableHttpResponse response, CookieStore cookieStore) {
@@ -81,24 +82,24 @@ public class JDParse extends ParseString {
     }
 
     private void fileSave(byte[] bytes) {
-        String path = "D:\\煎蛋\\" + title + "\\";
+        String path = outPath + "\\煎蛋\\" + title + "\\";
         String name = i++ + "." + pre;
         append(Utils.fileSave(bytes, name, path));
     }
 
     @Override
     public void pretreatment(String url, HttpRequestBase client) {
-//        url.endsWith(".jpg") || url.endsWith(".gif") ||
         int i = url.lastIndexOf(".");
         pre = url.substring(i + 1);
         if (isFirst) {
             suff = url;
             isFirst = false;
         }
-
         client.setURI(URI.create(url));
-//        else if (Pattern.matches("^http://[a-z]+\\.[a-z]+/[a-z]+$", url)) {
-//            client.setURI(URI.create(url + "/page-" + maxPage));
-//        }
+    }
+
+    @Override
+    public void init(cn.miss.entity.HttpEntity entity) {
+        outPath = entity.getOutPath();
     }
 }

@@ -6,6 +6,7 @@ import cn.miss.utils.CallBack;
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,6 +18,7 @@ import java.util.Map;
 public class MainForm implements CallBack {
     private final HttpClientManager manager;
     private final JFrame frame;
+    private final JFileChooser chooser;
     private JPanel panel1;
     private JTextField url;
     private JButton startBtn;
@@ -28,23 +30,29 @@ public class MainForm implements CallBack {
     private JButton stopBtn;
     private JButton headerBtn;
     private String cookie = "";
-    private JProgressBar progress;
     private JComboBox speed;
+    private JButton outBtn;
+    private JTextField outPathText;
     private Map<String, String> header = new HashMap<>();
 
     public MainForm(JFrame frame) {
         this.frame = frame;
         manager = new HttpClientManager();
         manager.setCallback(this);
+        chooser = new JFileChooser("D:\\");
+        chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         startBtn.addActionListener(e -> {
+            if(!new File(outPathText.getText()).exists()){
+                JOptionPane.showMessageDialog(frame,"请选择合法的路径！","错误提示",JOptionPane.ERROR_MESSAGE);
+                return;
+            }
             startBtn.setEnabled(false);
-            progress.setValue(0);
-            System.out.println(speed.getSelectedItem());
             manager.setMethod((String) method.getSelectedItem()).
                     setBrowser((String) browser.getSelectedItem()).
                     setUrlType((String) selectMode.getSelectedItem()).
                     setUrl(url.getText()).
                     setSpeed(Long.parseLong((String) speed.getSelectedItem())).
+                    setOutPath(outPathText.getText()).
                     setCookies(cookie);
             manager.start();
         });
@@ -56,9 +64,16 @@ public class MainForm implements CallBack {
         headerBtn.addActionListener(e -> {
             String he = JOptionPane.showInputDialog(frame, "", "请输入Header", JOptionPane.INFORMATION_MESSAGE);
             if (he != null && !he.isEmpty()) {
-                String[] split = he.split("=");
+                String[] split = he.split(":");
                 if (split.length == 2)
                     header.put(split[0], split[1]);
+            }
+        });
+        outBtn.addActionListener(e -> {
+            if (chooser.showOpenDialog(null) != 1) {
+                String absolutePath = chooser.getSelectedFile().getAbsolutePath();
+                outPathText.setText(absolutePath);
+                append("已选择输出文件目录:" + absolutePath);
             }
         });
     }
@@ -69,7 +84,7 @@ public class MainForm implements CallBack {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-        frame.setSize(500, 400);//设置窗体大小
+        frame.setSize(700, 400);//设置窗体大小
         frame.setLocationRelativeTo(null);//设置居中
     }
 
@@ -91,6 +106,6 @@ public class MainForm implements CallBack {
 
     @Override
     public void progressChange(int i) {
-        progress.setValue(i);
+//        progress.setValue(i);
     }
 }

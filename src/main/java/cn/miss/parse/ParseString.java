@@ -1,5 +1,6 @@
 package cn.miss.parse;
 
+import cn.miss.entity.HttpEntity;
 import cn.miss.utils.CallBack;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -31,6 +32,8 @@ public abstract class ParseString {
     public abstract List<String> doParse(CloseableHttpResponse response, CookieStore cookieStore);
 
     public abstract void pretreatment(String url, HttpRequestBase client);
+
+    public abstract void init(HttpEntity entity);
 
     public void setCallBack(CallBack callBack) {
         this.callBack = callBack;

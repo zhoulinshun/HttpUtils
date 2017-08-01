@@ -32,7 +32,9 @@ public class HttpClientExecutor {
         if (httpEntity.getMethod().equals("GET")) {
             client = new HttpGetMethodClient();
         } else {
-            client = new HttpPostMethodClient();
+            //暂时都是get处理
+            //client = new HttpPostMethodClient();
+            client = new HttpGetMethodClient();
         }
         client.doStart(httpEntity, getHttpClient(httpEntity.getUrl(), cookieStore), cookieStore, parseString);
     }

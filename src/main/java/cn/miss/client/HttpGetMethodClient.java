@@ -27,6 +27,7 @@ public class HttpGetMethodClient implements HttpMethodClient {
         this.httpEntity = httpEntity;
         this.cookieStore = cookieStore;
         setHeader();
+        parseString.init(httpEntity);
         newThreadStart(httpEntity.getUrl(), httpClient, parseString);
     }
 

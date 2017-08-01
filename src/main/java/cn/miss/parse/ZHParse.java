@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 
 /**
  * @Author MissNull
- * @Description:
+ * @Description: 知乎
  * @Date: Created in 2017/7/27.
  */
 public class ZHParse extends ParseString {
@@ -30,6 +30,7 @@ public class ZHParse extends ParseString {
     private int i = 0;
     private String title;
     private Gson gson = new Gson();
+    private String outPath;
 
     public ZHParse(CallBack callBack) {
         super(callBack);
@@ -70,7 +71,7 @@ public class ZHParse extends ParseString {
 
 
     private List<String> getPicUrl(String content) {
-        Pattern pattern = Pattern.compile("https://pic[0-9]{1}.zhimg.com/[-a-zA-Z0-9]+_b\\.jpg");
+        Pattern pattern = Pattern.compile("https://pic[0-9].zhimg.com/[-a-zA-Z0-9]+_b\\.jpg");
         Matcher matcher = pattern.matcher(content);
         List<String> list = new ArrayList<>();
         while (matcher.find()) {
@@ -82,11 +83,11 @@ public class ZHParse extends ParseString {
         return list;
     }
 
-    //图片文件保存
+    //文件保存
     private void fileSave(byte[] bytes, String p) {
-        String path = "D:\\知乎\\" + title + "\\";
+        String path = outPath + "\\知乎\\" + title + "\\";
         String name = i++ + "." + p;
-        append(Utils.fileSave(bytes,name,path));
+        append(Utils.fileSave(bytes, name, path));
     }
 
 
@@ -108,5 +109,10 @@ public class ZHParse extends ParseString {
         if (url.endsWith(".jpg")) {
             client.removeHeaders("Host");
         }
+    }
+
+    @Override
+    public void init(cn.miss.entity.HttpEntity entity) {
+        outPath = entity.getOutPath();
     }
 }
