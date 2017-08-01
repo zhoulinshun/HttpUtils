@@ -7,4 +7,6 @@ package cn.miss.utils;
  */
 public interface CallBack {
     void callback();
+    void append(String msg);
+    void progressChange(int i);
 }

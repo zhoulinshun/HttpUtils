@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @Author MissNull
- * @Description:
+ * @Description: 用于解析json的实体类
  * @Date: Created in 2017/7/27.
  */
 public class ZHAnswer {

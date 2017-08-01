@@ -14,6 +14,8 @@ public class HttpEntity {
     private List<Map<String,String>> param;
     private Map<String,String> header;
     private Map<String,String> cookie;
+    private long speed;
+
 
     public HttpEntity(String url, Map<String, String> header) {
         this.url = url;
@@ -21,6 +23,14 @@ public class HttpEntity {
     }
 
     public HttpEntity() {
+    }
+
+    public long getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(long speed) {
+        this.speed = speed;
     }
 
     public Map<String, String> getCookie() {

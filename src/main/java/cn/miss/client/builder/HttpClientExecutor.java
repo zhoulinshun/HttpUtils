@@ -8,11 +8,9 @@ import cn.miss.client.HttpPostMethodClient;
 import cn.miss.entity.HttpEntity;
 import cn.miss.parse.ParseString;
 import org.apache.http.client.CookieStore;
-import org.apache.http.conn.HttpClientConnectionManager;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.impl.cookie.BasicClientCookie;
 
 import java.util.Map;
@@ -28,23 +26,6 @@ public class HttpClientExecutor {
     private CloseableHttpClient httpClient;
     private CloseableHttpClient httpsClient;
 
-
-//    public void getStart(String url, Map<String, String> headers, CookieStore cookieStore) {
-//        client = new HttpGetMethodClient();
-//        HttpEntity httpEntity = new HttpEntity(url, headers);
-//        client.doStart(httpEntity, getHttpClient(url, cookieStore), cookieStore);
-//    }
-//
-//    public void postStart(String url, Map<String, String> headers) {
-//        client = new HttpPostMethodClient();
-//    }
-//
-//    private void doStart(String url, Map<String, String> headers, CookieStore cookieStore) {
-//        client = new HttpGetMethodClient();
-//        HttpEntity httpEntity = new HttpEntity(url, headers);
-//        client.doStart(httpEntity, getHttpClient(url, cookieStore), cookieStore);
-//    }
-
     public void start(HttpEntity httpEntity, ParseString parseString) {
         HttpMethodClient client;
         CookieStore cookieStore = getCookieStore(httpEntity.getCookie());
@@ -53,19 +34,17 @@ public class HttpClientExecutor {
         } else {
             client = new HttpPostMethodClient();
         }
-        new Thread(()-> client.doStart(httpEntity, getHttpClient(httpEntity.getUrl(), cookieStore), cookieStore,parseString)).start();
-//        client.doStart(httpEntity, getHttpClient(httpEntity.getUrl(), cookieStore), cookieStore,parseString);
+        client.doStart(httpEntity, getHttpClient(httpEntity.getUrl(), cookieStore), cookieStore, parseString);
     }
 
-    private CookieStore getCookieStore(Map<String,String> cookie){
+    private CookieStore getCookieStore(Map<String, String> cookie) {
         CookieStore cookieStore = new BasicCookieStore();
-        cookie.forEach((s,e)->{
-            BasicClientCookie c = new BasicClientCookie(s,e);
+        Optional.ofNullable(cookie).ifPresent(d->d.forEach((s, e) -> {
+            BasicClientCookie c = new BasicClientCookie(s, e);
             c.setDomain("www.zhihu.com");
             c.setPath("/");
             cookieStore.addCookie(c);
-
-        });
+        }));
         return cookieStore;
     }
 

@@ -1,6 +1,8 @@
 package cn.miss.parse;
 
 import cn.miss.entity.ZHAnswer;
+import cn.miss.utils.CallBack;
+import cn.miss.utils.Utils;
 import com.google.gson.Gson;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
@@ -9,13 +11,9 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.util.EntityUtils;
 
-import java.io.File;
 import java.net.URI;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,7 +22,7 @@ import java.util.regex.Pattern;
  * @Description:
  * @Date: Created in 2017/7/27.
  */
-public class ZHParse implements ParseString {
+public class ZHParse extends ParseString {
     private String request = "https://www.zhihu.com/api/v4/questions/";
     private String requestNumber = "62598434";
     private String sur = "&offset=0&limit=20";
@@ -33,15 +31,25 @@ public class ZHParse implements ParseString {
     private String title;
     private Gson gson = new Gson();
 
+    public ZHParse(CallBack callBack) {
+        super(callBack);
+    }
+
+    public ZHParse() {
+        super();
+    }
+
     @Override
     public List<String> doParse(CloseableHttpResponse response, CookieStore cookieStore) {
         List<String> list = new ArrayList<>();
         HttpEntity str = response.getEntity();
         Header type = str.getContentType();
-        System.out.println(type.getValue());
+        append(type.getValue());
         try {
             if (type.getValue().contains("application/json")) {
-                ZHAnswer zhAnswer = gson.fromJson(EntityUtils.toString(str), ZHAnswer.class);
+                String s1 = EntityUtils.toString(str);
+                System.out.println(s1);
+                ZHAnswer zhAnswer = gson.fromJson(s1, ZHAnswer.class);
                 if (!zhAnswer.isEmpty()) {
                     title = zhAnswer.data.get(0).question.title;
                     if (!zhAnswer.paging.is_end) {
@@ -50,7 +58,7 @@ public class ZHParse implements ParseString {
                     zhAnswer.data.forEach(s -> list.addAll(getPicUrl(s.content)));
                 }
             } else if (Pattern.matches("^image/.*", type.getValue())) {
-                fileDownload(EntityUtils.toByteArray(str), type.getValue().substring(6));
+                fileSave(EntityUtils.toByteArray(str), type.getValue().substring(6));
             } else {
                 System.out.println(EntityUtils.toString(str));
             }
@@ -74,22 +82,11 @@ public class ZHParse implements ParseString {
         return list;
     }
 
-    //图片文件下载
-    private void fileDownload(byte[] bytes, String p) {
-        File file = new File("D:\\知乎\\" + title + "\\");
-        if (!file.exists()) {
-            file.mkdirs();
-        }
-        File f = new File(file, i++ + "." + p);
-        try {
-            if (!f.exists())
-                f.createNewFile();
-            Files.write(f.toPath(), bytes);
-            System.out.println("保存成功！");
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("保存失败");
-        }
+    //图片文件保存
+    private void fileSave(byte[] bytes, String p) {
+        String path = "D:\\知乎\\" + title + "\\";
+        String name = i++ + "." + p;
+        append(Utils.fileSave(bytes,name,path));
     }
 
 
@@ -108,22 +105,8 @@ public class ZHParse implements ParseString {
         } else {
             client.setURI(URI.create(url));
         }
-//        if(url.startsWith(request))
-//        else {
-//            try {
-//               Integer.parseInt(url);
-//               requestNumber = url;
-//               client.setURI(URI.create(request + requestNumber + "/" + param + sur));
-//            }catch (Exception e){
-//                e.printStackTrace();
-//            }
-//        }
         if (url.endsWith(".jpg")) {
             client.removeHeaders("Host");
         }
-//            client.addHeader("Host", "");}
-//        } else {
-//            client.addHeader("Host", "www.zhihu.com");
-//        }
     }
 }

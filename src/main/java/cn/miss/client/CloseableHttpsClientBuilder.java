@@ -23,7 +23,7 @@ import java.security.cert.X509Certificate;
 
 /**
  * @Author MissNull
- * @Description:
+ * @Description: 用于构建https的HttpClient 免除证书
  * @Date: Created in 2017/7/27.
  */
 public class CloseableHttpsClientBuilder {
