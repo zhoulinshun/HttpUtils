@@ -1,5 +1,7 @@
 package cn.miss.utils;
 
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,10 +10,13 @@ import java.util.Map;
  * @Description:
  * @Date: Created in 2017/7/28.
  */
+
 public class BrowserHeader {
     public static BrowserHeader ieBrowser= new BrowserHeader("IE");
     public static BrowserHeader googleBrowser=new BrowserHeader("GOOGLE");
     public static BrowserHeader fireForkBrowser= new BrowserHeader("FIREFORK");
+    public static BrowserHeader androidBrowser = new BrowserHeader("ANDROID");
+    public static BrowserHeader iphoneBrowser = new BrowserHeader("IPHONE");
 
     private Map<String,String> headers = new HashMap<>();
 
@@ -37,6 +42,10 @@ public class BrowserHeader {
             case "FIREFORK":
                 headers.put("User-Agent","Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0");
                 break;
+            case "ANDROID":
+                headers.put("User-Agent","Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30");
+            case "IPHONE":
+                headers.put("User-Agent","Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/59.0.3071.115 Mobile/13B143 Safari/601.1.46");
         }
     }
 
