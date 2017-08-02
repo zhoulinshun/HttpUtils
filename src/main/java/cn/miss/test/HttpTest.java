@@ -29,19 +29,37 @@ public class HttpTest {
         HttpEntity httpEntity = new HttpEntity();
         HashMap<String, String> map = new HashMap<>();
         HashMap<String, String> cookies = new HashMap<>();
-        cookies.put("aliyungf_tc","AQAAAI09g0YOZAMAFX4pfRct197NqB2Y");
-        cookies.put("l_n_c","1");
-        cookies.put("q_c1","2eca2f819b7f4d21b7fdd0c180597d53|1500509970000|1500509970000");
         cookies.put("_zap","8afc7ea3-ce4a-487a-bb3c-9efbdf9bccd6");
+        cookies.put("q_c1","2eca2f819b7f4d21b7fdd0c180597d53|1500509970000|1500509970000");
+        cookies.put("q_c1","5c08c9aaa93c44958ac72342112e9377|1500509970000|1500509970000");
         cookies.put("r_cap_id","ODk1Y2YyNzhmODkyNDNiNThmNjFmOTVjNzY3ZmQxNTQ=|1500942221|60c2ac18bca3b10020fc9af10a4a303ba862a8e4");
         cookies.put("cap_id","NWRlNThhZjdiNTI2NDc2YzhiYjExZGM0Y2U2N2Y4NTY=|1500942221|b7d84ca043a6edd344f879812a80030340d1ea1d");
         cookies.put("d_c0","AJBC0NzbHQyPTpWfN2ml51-wFl0T-W0ud-o=|1500942222");
-        cookies.put("z_c0","Mi4wQUVDQXpSTmV3UWtBa0VMUTNOc2REQmNBQUFCaEFsVk5teHllV1FBTW1ZeUFkdVZiVVhfT0Y5RHVGRGFGRjVJVklB|1500942235|1da8f8fc129288a2f160e0c5b7296f6758a8bd39");
-        cookies.put("_xsrf","e6fe94826905b1c446e6c2cb024d1377");
-        cookies.put("__utma","51854390.838969751.1501136061.1501136061.1501136061.1");
-        cookies.put("__utmz","51854390.1501136061.1.1.utmcsr=zhihu.com|utmccn=(referral)|utmcmd=referral|utmcct=/question/49044384");
-        cookies.put("__utmv","51854390.100-1|2=registration_date=20160411=1^3=entry_date=20160411=1");
-        cookies.put("_xsrf","e6fe94826905b1c446e6c2cb024d1377");
+        cookies.put("z_c0","Mi4wQUVDQXpSTmV3UWtBa0VMUTNOc2REQmNBQUFCaEFsVk5teHllV1FBTW1ZeUFkdVZiVVhfT0Y5RHVGRGFGRjVJVklB|1500942235|1da8f8fc129288a2f160e0c5b7296f6758a8bd39; _xsrf=e6fe94826905b1c446e6c2cb024d1377");
+        cookies.put("aliyungf_tc","AQAAAD3jwAwo/QIAarkOex16Npd4xZbI");
+//        cookies.put("__utma","51854390.1786897859.1501213115.1501236936.1501466230.5");
+//        cookies.put("__utmb","51854390.0.10.1501466230");
+//        cookies.put("__utmc","51854390");
+//        cookies.put("","");
+
+//        cookies.put("aliyungf_tc","AQAAAI09g0YOZAMAFX4pfRct197NqB2Y");
+//        cookies.put("l_n_c","1");
+//        cookies.put("q_c1","2eca2f819b7f4d21b7fdd0c180597d53|1500509970000|1500509970000");
+//        cookies.put("_zap","8afc7ea3-ce4a-487a-bb3c-9efbdf9bccd6");
+////        cookies.put("r_cap_id","ODk1Y2YyNzhmODkyNDNiNThmNjFmOTVjNzY3ZmQxNTQ=|1500942221|60c2ac18bca3b10020fc9af10a4a303ba862a8e4");
+//        cookies.put("r_cap_id","ODk1Y2YyNzhmODkyNDNiNThmNjFmOTVjNzY3ZmQxNTQ");
+//        cookies.put("cap_id","NWRlNThhZjdiNTI2NDc2YzhiYjExZGM0Y2U2N2Y4NTY");
+////        cookies.put("cap_id","NWRlNThhZjdiNTI2NDc2YzhiYjExZGM0Y2U2N2Y4NTY=|1500942221|b7d84ca043a6edd344f879812a80030340d1ea1d");
+//        cookies.put("d_c0","AJBC0NzbHQyPTpWfN2ml51-wFl0T-W0ud-o");
+////        cookies.put("d_c0","AJBC0NzbHQyPTpWfN2ml51-wFl0T-W0ud-o=|1500942222");
+//        cookies.put("z_c0","Mi4wQUVDQXpSTmV3UWtBa0VMUTNOc2REQmNBQUFCaEFsVk5teHllV1FBTW1ZeUFkdVZiVVhfT0Y5RHVGRGFGRjVJVklB|1500942235|1da8f8fc129288a2f160e0c5b7296f6758a8bd39");
+//        cookies.put("_xsrf","e6fe94826905b1c446e6c2cb024d1377");
+//        cookies.put("__utma","51854390.838969751.1501136061.1501136061.1501136061.1");
+////        cookies.put("__utmz","51854390.1501136061.1.1.utmcsr=zhihu.com|utmccn=(referral)|utmcmd=referral|utmcct=/question/49044384");
+//        cookies.put("__utmz","51854390.1501136061.1.1.utmcsr");
+//        cookies.put("__utmv","51854390.100-1|2");
+////        cookies.put("__utmv","51854390.100-1|2=registration_date=20160411=1^3=entry_date=20160411=1");
+//        cookies.put("_xsrf","e6fe94826905b1c446e6c2cb024d1377");
 
         map.put("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
         map.put("Accept-Encoding","gzip, deflate, br");
@@ -49,7 +67,6 @@ public class HttpTest {
         map.put("Cache-Control","max-age=0");
         map.put("Connection","keep-alive");
         map.put("Host","www.zhihu.com");
-//        map.put("Referer","https://www.zhihu.com/topic/19550228/top-answers");
         map.put("Upgrade-Insecure-Requests","1");
         map.put("User-Agent","Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36");
 //        httpEntity.setUrl("https://www.zhihu.com/question/49044384");
@@ -86,7 +103,7 @@ public class HttpTest {
     @Test
     public void test4() throws Exception {
         Gson gson = new Gson();
-        String path = getClass().getResource("/test.json").getPath();
+        String path = getClass().getResource("/jiandan.html").getPath();
         FileInputStream outputStream = new FileInputStream(new File(path));
         BufferedReader reader = new BufferedReader(new InputStreamReader(outputStream));
         StringBuffer stringBuffer = new StringBuffer();
@@ -95,8 +112,18 @@ public class HttpTest {
             stringBuffer.append(len);
         }
         reader.close();
-        ZHAnswer zhAnswer = gson.fromJson(stringBuffer.toString(), ZHAnswer.class);
-        zhAnswer.data.forEach(s-> System.out.println(s.content));
+        Pattern compile = Pattern.compile("<a href=\"http://jandan.net/[a-z]+/page-[0-9]+#comments\">\\s+\\d+\\s+</a>");
+        Matcher matcher = compile.matcher(stringBuffer.toString());
+        if (matcher.find()){
+            String substring = matcher.group(0).substring(51);
+            int i = substring.indexOf("<");
+            System.out.println(substring.substring(0,i).trim());
+        }
+//        while (matcher.find()) {
+//            System.out.println(matcher.group(0));
+//        }
+//        ZHAnswer zhAnswer = gson.fromJson(stringBuffer.toString(), ZHAnswer.class);
+//        zhAnswer.data.forEach(s-> System.out.println(s.content));
     }
 
     @Test
@@ -107,6 +134,36 @@ public class HttpTest {
 
     @Test
     public void test14(){
-        System.out.println(Pattern.matches("^image/.*", "image/jpeg"));
+        Pattern compile = Pattern.compile("//wx[0-9]\\.sinaimg\\.cn/large/[0-9A-Za-z]+\\.[a-z]+");
+        Matcher matcher = compile.matcher("sdfsdfs//wx2.sinaimg.cn/large/8b064fe4gy1fi4593dy3bj20k30p71i1.jpg");
+        if (matcher.find()) {
+            System.out.println(matcher.group(0));
+        }
+    }
+
+    @Test
+    public void test16(){
+        Pattern compile = Pattern.compile("<a href=\"http://jandan.net/ooxx/page-223#comments\">\\s+\\d+\\s+</a>");
+        Matcher matcher = compile.matcher("<a href=\"http://jandan.net/ooxx/page-223#comments\">                    223                </a>");
+        if (matcher.find()){
+            String substring = matcher.group(0).substring(51);
+            int i = substring.indexOf("<");
+            System.out.println(substring.substring(0,i).trim());
+        }
+        System.out.println("<a href=\"http://jandan.net/ooxx/page-223#comments\">".length());
+    }
+
+    @Test
+    public void test17(){
+        String url = "sdsdff.jpg";
+        int i = url.lastIndexOf(".");
+        System.out.println(url.substring(i+1));
+    }
+
+    @Test
+    public void test18(){
+        File file = new File("U:\\");
+
+        System.out.println(file.exists());
     }
 }
