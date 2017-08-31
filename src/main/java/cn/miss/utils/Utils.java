@@ -1,11 +1,9 @@
 package cn.miss.utils;
 
-import cn.miss.parse.JDParse;
-import cn.miss.parse.ParseString;
-import cn.miss.parse.ZHParse;
-
 import java.io.File;
 import java.nio.file.Files;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
@@ -23,6 +21,7 @@ public class Utils {
             String[] split = s.split("=");
             StringBuilder value = new StringBuilder(split[1]);
             if (split.length > 2) {
+                value.append(split[1]);
                 value.append("=");
                 for (int i = 2; i < split.length; i++) {
                     value.append(split[i]);
@@ -36,16 +35,6 @@ public class Utils {
         return map;
     }
 
-    public static ParseString getParse(String value) {
-        switch (value) {
-            case "知乎":
-                return new ZHParse();
-            case "煎蛋":
-                return new JDParse();
-            default:
-                return new ZHParse();
-        }
-    }
 
     //文件保存
     public static String fileSave(byte[] bytes, String filename, String path) {
@@ -63,4 +52,15 @@ public class Utils {
             return filename + ": 保存失败" + e.getMessage();
         }
     }
+
+    public static Connection getConnection() {
+        try {
+            Class.forName("jdbc:mysql:com.mysql.jdbc.Driver");
+            return DriverManager.getConnection("http://59.110.239.11:3306", "root", "1049");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }

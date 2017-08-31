@@ -5,6 +5,7 @@ import cn.miss.parse.ParseString;
 import cn.miss.utils.ProjectFlag;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
+import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 
@@ -28,6 +29,12 @@ public class HttpGetMethodClient implements HttpMethodClient {
         this.cookieStore = cookieStore;
         setHeader();
         parseString.init(httpEntity);
+        httpGet.getConfig();
+        RequestConfig config = RequestConfig.custom()
+                .setConnectionRequestTimeout(5000)
+                .setSocketTimeout(5000)
+                .setConnectTimeout(5000).build();
+        httpGet.setConfig(config);
         newThreadStart(httpEntity.getUrl(), httpClient, parseString);
     }
 
@@ -46,7 +53,6 @@ public class HttpGetMethodClient implements HttpMethodClient {
             CloseableHttpResponse execute = (CloseableHttpResponse) httpClient.execute(httpGet);
             urls = parseString.doParse(execute, cookieStore);
             execute.close();
-
             for (String s : urls) {
                 if (ProjectFlag.flag)
                     newThreadStart(s, httpClient, parseString);

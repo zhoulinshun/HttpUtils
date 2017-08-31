@@ -2,7 +2,10 @@ package cn.miss.client;
 
 import cn.miss.client.builder.HttpClientExecutor;
 import cn.miss.entity.HttpEntity;
+import cn.miss.parse.ACGParse;
+import cn.miss.parse.JDParse;
 import cn.miss.parse.ParseString;
+import cn.miss.parse.ZHParse;
 import cn.miss.utils.BrowserHeader;
 import cn.miss.utils.CallBack;
 import cn.miss.utils.ProjectFlag;
@@ -106,7 +109,7 @@ public class HttpClientManager {
                 break;
         }
         httpEntity.setHeader(tempHeader);
-        ParseString parseString = Utils.getParse(urlType);
+        ParseString parseString = getParse(urlType);
         parseString.setCallBack(callback);
         thread = new Thread(() -> {
             executor.start(httpEntity, parseString);
@@ -121,5 +124,18 @@ public class HttpClientManager {
 
     public void stopRunnable() {
         ProjectFlag.flag = false;
+    }
+
+    public ParseString getParse(String value) {
+        switch (value) {
+            case "知乎":
+                return new ZHParse();
+            case "煎蛋":
+                return new JDParse();
+            case "ACG":
+                return new ACGParse();
+            default:
+                return new ZHParse();
+        }
     }
 }
