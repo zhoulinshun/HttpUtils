@@ -2,12 +2,13 @@ package cn.miss.parse;
 
 import cn.miss.entity.ZHAnswer;
 import cn.miss.utils.CallBack;
-import cn.miss.utils.Utils;
+import cn.miss.utils.CurrencyUtils;
 import com.google.gson.Gson;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.util.EntityUtils;
 
@@ -41,7 +42,7 @@ public class ZHParse extends ParseString {
     }
 
     @Override
-    public List<String> doParse(CloseableHttpResponse response, CookieStore cookieStore) {
+    public List<String> doParse(CloseableHttpResponse response) {
         List<String> list = new ArrayList<>();
         HttpEntity str = response.getEntity();
         Header type = str.getContentType();
@@ -87,12 +88,12 @@ public class ZHParse extends ParseString {
     private void fileSave(byte[] bytes, String p) {
         String path = outPath + "\\知乎\\" + title + "\\";
         String name = i++ + "." + p;
-        append(Utils.fileSave(bytes, name, path));
+        append(CurrencyUtils.fileSave(bytes, name, path));
     }
 
 
     @Override
-    public void pretreatment(String url, HttpRequestBase client) {
+    public void pretreatment(String url, HttpRequestBase client, CookieStore cookieStore) {
         if (url.startsWith("http:")) {
             url = "https" + url.substring(4);
         }
@@ -112,7 +113,7 @@ public class ZHParse extends ParseString {
     }
 
     @Override
-    public void init(cn.miss.entity.HttpEntity entity) {
+    public void start(cn.miss.entity.HttpEntity entity, HttpGet httpGet) {
         outPath = entity.getOutPath();
     }
 }

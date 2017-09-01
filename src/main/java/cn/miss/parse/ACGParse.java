@@ -1,9 +1,10 @@
 package cn.miss.parse;
 
 import cn.miss.entity.HttpEntity;
-import cn.miss.utils.Utils;
+import cn.miss.utils.CurrencyUtils;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.util.EntityUtils;
 
@@ -33,7 +34,7 @@ public class ACGParse extends ParseString {
     private SimpleDateFormat format;
 
     @Override
-    public List<String> doParse(CloseableHttpResponse response, CookieStore cookieStore) {
+    public List<String> doParse(CloseableHttpResponse response) {
         List<String> list = new ArrayList<>(100);
         if (isFirst) {
             list.addAll(getURL());
@@ -59,12 +60,12 @@ public class ACGParse extends ParseString {
 
     private void fileSave(byte[] bytes) {
         String filename = getNumber(number-1) + ".jpg";
-        Utils.fileSave(bytes, filename, truePath);
+        CurrencyUtils.fileSave(bytes, filename, truePath);
         append(filename + "：保存成功");
     }
 
     @Override
-    public void pretreatment(String url, HttpRequestBase client) {
+    public void pretreatment(String url, HttpRequestBase client, CookieStore cookieStore) {
         if (isFirst) {
             number = 1;
             client.setURI(URI.create(defaultURL));
@@ -114,7 +115,7 @@ public class ACGParse extends ParseString {
     }
 
     @Override
-    public void init(HttpEntity entity) {
+    public void start(HttpEntity entity, HttpGet httpGet) {
         String url = entity.getUrl();
         outPath = entity.getOutPath();
         String substring = url.substring(url.lastIndexOf("/") + 1);

@@ -33,6 +33,7 @@ public class MainForm implements CallBack {
     private JComboBox speed;
     private JButton outBtn;
     private JTextField outPathText;
+    private JButton clear;
     private Map<String, String> header = new HashMap<>();
 
     public MainForm(JFrame frame) {
@@ -42,8 +43,8 @@ public class MainForm implements CallBack {
         chooser = new JFileChooser("D:\\");
         chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         startBtn.addActionListener(e -> {
-            if(!new File(outPathText.getText()).exists()){
-                JOptionPane.showMessageDialog(frame,"请选择合法的路径！","错误提示",JOptionPane.ERROR_MESSAGE);
+            if (!new File(outPathText.getText()).exists()) {
+                JOptionPane.showMessageDialog(frame, "请选择合法的路径！", "错误提示", JOptionPane.ERROR_MESSAGE);
                 return;
             }
             startBtn.setEnabled(false);
@@ -61,6 +62,7 @@ public class MainForm implements CallBack {
             manager.stopRunnable();
             startBtn.setEnabled(true);
         });
+        clear.addActionListener(e -> textPanel.setText(""));
         headerBtn.addActionListener(e -> {
             String he = JOptionPane.showInputDialog(frame, "", "请输入Header", JOptionPane.INFORMATION_MESSAGE);
             if (he != null && !he.isEmpty()) {

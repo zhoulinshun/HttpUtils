@@ -31,7 +31,6 @@ public class BrowserHeader {
         headers.put("Connection","keep-alive");
         headers.put("Upgrade-Insecure-Requests","1");
         headers.put("Cache-Control","max-age=0");
-//        headers.put("Host","www.zhihu.com");
         switch (type) {
             case "IE":
                 headers.put("User-Agent","");

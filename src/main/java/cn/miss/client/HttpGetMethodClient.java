@@ -28,14 +28,15 @@ public class HttpGetMethodClient implements HttpMethodClient {
         this.httpEntity = httpEntity;
         this.cookieStore = cookieStore;
         setHeader();
-        parseString.init(httpEntity);
         httpGet.getConfig();
         RequestConfig config = RequestConfig.custom()
                 .setConnectionRequestTimeout(5000)
                 .setSocketTimeout(5000)
                 .setConnectTimeout(5000).build();
         httpGet.setConfig(config);
+        parseString.start(httpEntity,httpGet);
         newThreadStart(httpEntity.getUrl(), httpClient, parseString);
+        parseString.end();
     }
 
 
@@ -47,11 +48,11 @@ public class HttpGetMethodClient implements HttpMethodClient {
             e.printStackTrace();
         }
         List<String> urls;
-        parseString.pretreatment(url, httpGet);
+        parseString.pretreatment(url, httpGet,cookieStore);
         parseString.append("url:  " + httpGet.getURI().toString());
         try {
             CloseableHttpResponse execute = (CloseableHttpResponse) httpClient.execute(httpGet);
-            urls = parseString.doParse(execute, cookieStore);
+            urls = parseString.doParse(execute);
             execute.close();
             for (String s : urls) {
                 if (ProjectFlag.flag)

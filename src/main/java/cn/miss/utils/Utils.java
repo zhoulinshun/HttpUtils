@@ -6,6 +6,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 /**
@@ -37,30 +39,17 @@ public class Utils {
 
 
     //文件保存
-    public static String fileSave(byte[] bytes, String filename, String path) {
-        File p = new File(path);
-        if (!p.exists())
-            p.mkdirs();
-        File f = new File(p, filename);
-        try {
-            if (!f.exists())
-                f.createNewFile();
-            Files.write(f.toPath(), bytes);
-            return filename + ": 保存成功";
-        } catch (Exception e) {
-            e.printStackTrace();
-            return filename + ": 保存失败" + e.getMessage();
-        }
-    }
 
     public static Connection getConnection() {
         try {
-            Class.forName("jdbc:mysql:com.mysql.jdbc.Driver");
-            return DriverManager.getConnection("http://59.110.239.11:3306", "root", "1049");
+            Class.forName("com.mysql.jdbc.Driver");
+            return DriverManager.getConnection("jdbc:mysql://59.110.239.11:3306/test?useUnicode=true;characterEncoding=UTF-8", "root", "1049");
         } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
+
+
 
 }

@@ -4,7 +4,6 @@ package cn.miss.client.builder;
 import cn.miss.client.CloseableHttpsClientBuilder;
 import cn.miss.client.HttpGetMethodClient;
 import cn.miss.client.HttpMethodClient;
-import cn.miss.client.HttpPostMethodClient;
 import cn.miss.entity.HttpEntity;
 import cn.miss.parse.ParseString;
 import org.apache.http.client.CookieStore;
@@ -41,9 +40,8 @@ public class HttpClientExecutor {
 
     private CookieStore getCookieStore(Map<String, String> cookie) {
         CookieStore cookieStore = new BasicCookieStore();
-        Optional.ofNullable(cookie).ifPresent(d->d.forEach((s, e) -> {
+        Optional.ofNullable(cookie).ifPresent(d -> d.forEach((s, e) -> {
             BasicClientCookie c = new BasicClientCookie(s, e);
-            c.setDomain("www.zhihu.com");
             c.setPath("/");
             cookieStore.addCookie(c);
         }));

@@ -1,10 +1,11 @@
 package cn.miss.parse;
 
-import cn.miss.utils.Utils;
+import cn.miss.utils.CurrencyUtils;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.util.EntityUtils;
 
@@ -31,7 +32,7 @@ public class JDParse extends ParseString {
     private String outPath;
 
     @Override
-    public List<String> doParse(CloseableHttpResponse response, CookieStore cookieStore) {
+    public List<String> doParse(CloseableHttpResponse response) {
         List<String> list = new ArrayList<>(32);
         HttpEntity entity = response.getEntity();
         Header type = entity.getContentType();
@@ -84,11 +85,11 @@ public class JDParse extends ParseString {
     private void fileSave(byte[] bytes) {
         String path = outPath + "\\煎蛋\\" + title + "\\";
         String name = i++ + "." + pre;
-        append(Utils.fileSave(bytes, name, path));
+        append(CurrencyUtils.fileSave(bytes, name, path));
     }
 
     @Override
-    public void pretreatment(String url, HttpRequestBase client) {
+    public void pretreatment(String url, HttpRequestBase client, CookieStore cookieStore) {
         int i = url.lastIndexOf(".");
         pre = url.substring(i + 1);
         if (isFirst) {
@@ -99,7 +100,7 @@ public class JDParse extends ParseString {
     }
 
     @Override
-    public void init(cn.miss.entity.HttpEntity entity) {
+    public void start(cn.miss.entity.HttpEntity entity, HttpGet httpGet) {
         outPath = entity.getOutPath();
     }
 }

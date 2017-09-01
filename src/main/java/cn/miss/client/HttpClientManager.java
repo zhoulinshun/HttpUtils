@@ -2,17 +2,12 @@ package cn.miss.client;
 
 import cn.miss.client.builder.HttpClientExecutor;
 import cn.miss.entity.HttpEntity;
-import cn.miss.parse.ACGParse;
-import cn.miss.parse.JDParse;
-import cn.miss.parse.ParseString;
-import cn.miss.parse.ZHParse;
+import cn.miss.parse.*;
 import cn.miss.utils.BrowserHeader;
 import cn.miss.utils.CallBack;
 import cn.miss.utils.ProjectFlag;
 import cn.miss.utils.Utils;
 
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -134,6 +129,8 @@ public class HttpClientManager {
                 return new JDParse();
             case "ACG":
                 return new ACGParse();
+            case "黑名单":
+                return new BlackList();
             default:
                 return new ZHParse();
         }
