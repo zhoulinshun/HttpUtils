@@ -1,7 +1,10 @@
 package cn.miss;
 
+import cn.miss.ano.ParseImpl;
 import cn.miss.client.HttpClientManager;
+import cn.miss.parse.ParseString;
 import cn.miss.utils.CallBack;
+import cn.miss.utils.ParseInjection;
 
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
@@ -35,11 +38,23 @@ public class MainForm implements CallBack {
     private JTextField outPathText;
     private JButton clear;
     private Map<String, String> header = new HashMap<>();
+    private Map<ParseImpl, Class<ParseString>> instances;
+    private Map<String, Class<ParseString>> parseStringClasses;
+
+    //解析类依赖注入
+    private void parseDepend() {
+        instances = ParseInjection.getInstances("/cn/miss/parse", ParseImpl.class, ParseString.class);
+        parseStringClasses = new HashMap<>();
+        instances.forEach((d, t) -> {
+            selectMode.addItem(d.value());
+            parseStringClasses.put(d.value(), t);
+        });
+    }
 
     public MainForm(JFrame frame) {
         this.frame = frame;
         manager = new HttpClientManager();
-        manager.setCallback(this);
+        manager.setSuccessCallable(this);
         chooser = new JFileChooser("D:\\");
         chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         startBtn.addActionListener(e -> {
@@ -54,7 +69,7 @@ public class MainForm implements CallBack {
                     setUrl(url.getText()).
                     setSpeed(Long.parseLong((String) speed.getSelectedItem())).
                     setOutPath(outPathText.getText()).
-                    setCookies(cookie);
+                    setCookies(cookie).setMap(parseStringClasses);
             manager.start();
         });
         cookieBtn.addActionListener(e -> cookie = JOptionPane.showInputDialog(frame, "", "请输入Cookie", JOptionPane.INFORMATION_MESSAGE));
@@ -78,6 +93,7 @@ public class MainForm implements CallBack {
                 append("已选择输出文件目录:" + absolutePath);
             }
         });
+        parseDepend();
     }
 
     public static void main(String[] args) {
@@ -108,6 +124,5 @@ public class MainForm implements CallBack {
 
     @Override
     public void progressChange(int i) {
-//        progress.setValue(i);
     }
 }

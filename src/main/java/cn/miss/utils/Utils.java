@@ -21,7 +21,7 @@ public class Utils {
         Map<String, String> map = new HashMap<>();
         Stream.of(cookies.split("; ")).forEach(s -> {
             String[] split = s.split("=");
-            StringBuilder value = new StringBuilder(split[1]);
+            StringBuilder value = new StringBuilder();
             if (split.length > 2) {
                 value.append(split[1]);
                 value.append("=");
@@ -38,7 +38,6 @@ public class Utils {
     }
 
 
-    //文件保存
 
     public static Connection getConnection() {
         try {

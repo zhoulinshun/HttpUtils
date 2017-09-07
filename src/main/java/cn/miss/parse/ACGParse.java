@@ -1,5 +1,6 @@
 package cn.miss.parse;
 
+import cn.miss.ano.ParseImpl;
 import cn.miss.entity.HttpEntity;
 import cn.miss.utils.CurrencyUtils;
 import org.apache.http.client.CookieStore;
@@ -21,6 +22,7 @@ import java.util.List;
  * @Description:
  * @Date: Created in 2017/8/2.
  */
+@ParseImpl("ACG")
 public class ACGParse extends ParseString {
     private String title;
     private Date date;
@@ -52,14 +54,12 @@ public class ACGParse extends ParseString {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
         }
-
         return list;
     }
 
     private void fileSave(byte[] bytes) {
-        String filename = getNumber(number-1) + ".jpg";
+        String filename = getNumber(number - 1) + ".jpg";
         CurrencyUtils.fileSave(bytes, filename, truePath);
         append(filename + "：保存成功");
     }

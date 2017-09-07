@@ -1,5 +1,6 @@
 package cn.miss.parse;
 
+import cn.miss.ano.ParseImpl;
 import cn.miss.utils.CurrencyUtils;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
@@ -21,6 +22,7 @@ import java.util.regex.Pattern;
  * @Description: 煎蛋网
  * @Date: Created in 2017/8/1.
  */
+@ParseImpl("煎蛋")
 public class JDParse extends ParseString {
     private int i = 0;
     private String title = null;

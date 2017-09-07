@@ -1,5 +1,6 @@
 package cn.miss.parse;
 
+import cn.miss.ano.ParseImpl;
 import cn.miss.entity.HttpEntity;
 import cn.miss.entity.Person;
 import cn.miss.utils.CurrencyUtils;
@@ -25,6 +26,7 @@ import java.util.stream.Collectors;
  * @Description:
  * @Date: Created in 2017/8/7.
  */
+@ParseImpl("信用黑名单")
 public class BlackList extends ParseString {
     private String url = "https://www.xinyongheimingdan.cc/blacklist-";
     private String uuu = "https://www.xinyongheimingdan.cc/";

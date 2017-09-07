@@ -1,5 +1,6 @@
 package cn.miss.parse;
 
+import cn.miss.ano.ParseImpl;
 import cn.miss.entity.ZHAnswer;
 import cn.miss.utils.CallBack;
 import cn.miss.utils.CurrencyUtils;
@@ -23,6 +24,7 @@ import java.util.regex.Pattern;
  * @Description: 知乎
  * @Date: Created in 2017/7/27.
  */
+@ParseImpl("知乎")
 public class ZHParse extends ParseString {
     private String request = "https://www.zhihu.com/api/v4/questions/";
     private String requestNumber = "62598434";

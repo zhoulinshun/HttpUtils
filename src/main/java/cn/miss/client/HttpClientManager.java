@@ -1,8 +1,10 @@
 package cn.miss.client;
 
+
 import cn.miss.client.builder.HttpClientExecutor;
 import cn.miss.entity.HttpEntity;
-import cn.miss.parse.*;
+import cn.miss.parse.ParseString;
+import cn.miss.parse.ZHParse;
 import cn.miss.utils.BrowserHeader;
 import cn.miss.utils.CallBack;
 import cn.miss.utils.ProjectFlag;
@@ -27,15 +29,25 @@ public class HttpClientManager {
     private Map<String, String> header = new HashMap<>();
     private HttpEntity httpEntity;
     private HttpClientExecutor executor;
-    private CallBack callback;
+    private CallBack successCallable;
     private Thread thread;
+    private Map<String, Class<ParseString>> map = new HashMap<>();
 
     public HttpClientManager() {
         executor = new HttpClientExecutor();
     }
 
-    public HttpClientManager setCallback(CallBack callback) {
-        this.callback = callback;
+    public HttpClientManager setSuccessCallable(CallBack successCallable) {
+        this.successCallable = successCallable;
+        return this;
+    }
+
+    public Map<String, Class<ParseString>> getMap() {
+        return map;
+    }
+
+    public HttpClientManager setMap(Map<String, Class<ParseString>> map) {
+        this.map = map;
         return this;
     }
 
@@ -105,10 +117,10 @@ public class HttpClientManager {
         }
         httpEntity.setHeader(tempHeader);
         ParseString parseString = getParse(urlType);
-        parseString.setCallBack(callback);
+        parseString.setCallBack(successCallable);
         thread = new Thread(() -> {
             executor.start(httpEntity, parseString);
-            callback.callback();
+            successCallable.callback();
         });
         thread.start();
     }
@@ -122,17 +134,11 @@ public class HttpClientManager {
     }
 
     public ParseString getParse(String value) {
-        switch (value) {
-            case "知乎":
-                return new ZHParse();
-            case "煎蛋":
-                return new JDParse();
-            case "ACG":
-                return new ACGParse();
-            case "黑名单":
-                return new BlackList();
-            default:
-                return new ZHParse();
+        try {
+            return map.get(value).newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+        return new ZHParse();
     }
 }
