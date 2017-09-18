@@ -1,5 +1,7 @@
 package cn.miss.utils;
 
+import cn.miss.entity.ClassEntity;
+
 import java.io.File;
 import java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -18,23 +20,23 @@ public class ParseInjection {
     public static List<String> getClasses(String packName) {
         List<String> list = new ArrayList<>();
         try {
-            String runtimePath = CurrencyUtils.getJarLocation(ParseInjection.class);
-            if (runtimePath != null) {
+            //jar路径
+            String runtimePath = CurrencyUtils.getJarLocation();
+            if (runtimePath.endsWith(".jar")) {
                 JarFile jarFile = new JarFile(runtimePath);
                 Enumeration<JarEntry> entries = jarFile.entries();
                 while (entries.hasMoreElements()) {
                     JarEntry jarEntry = entries.nextElement();
-                    String name = jarEntry.getName();
-                    if (name.startsWith(packName)) {
-                        String substring = name.substring(0, name.indexOf(packName));
-                        if (!substring.contains("/") && name.length() - 5 > packName.length()) {
+                    String name = jarEntry.getName();//  cn/miss/entity/ZHAnswer.class
+                    if (name.endsWith(".class")) {
+                        if (name.startsWith(packName.substring(1))) {
                             list.add(name.replace("/", "."));
                         }
                     }
                 }
             } else {
-                runtimePath = CurrencyUtils.getRunningTimeLocation(packName);
-                File file = new File(runtimePath);
+                //class路径
+                File file = new File(runtimePath + packName);
                 if (file.isDirectory()) {
                     File[] files = file.listFiles(pathname -> pathname.getName().endsWith(".class"));
                     Optional.ofNullable(files).ifPresent(fs -> Arrays.stream(fs).forEach(f -> {
@@ -62,15 +64,29 @@ public class ParseInjection {
         return list;
     }
 
+    public static List<ClassEntity> getClassEntityByPackageName(String pack) {
+        List<ClassEntity> list = new ArrayList<>();
+        List<Class> classInstances = getClassInstances(pack);
+        classInstances.forEach(clazz -> list.add(new ClassEntity(clazz)));
+        return list;
+    }
+
     //获取指定包内注解类
-    public static <T, D extends Annotation> Map<D, Class<T>> getInstances(String pack, Class<D> annotation, Class<T> tClass) {
+    public static <T, D extends Annotation>
+    Map<D, Class<T>> getInstances(String pack, Class<D> annotation, Class<T> superClass) {
         Map<D, Class<T>> map = new HashMap<>();
-        List<Class> classes = getClassInstances(pack);
-        classes.stream().filter(clazz -> clazz.getSuperclass().equals(tClass) && clazz.getAnnotation(annotation) != null)
-                .forEach(clazz -> {
-                    D d = (D) clazz.getAnnotation(annotation);
-                    map.put(d, clazz);
-                });
+        List<ClassEntity> entities = getClassEntityByPackageName(pack);
+        entities.stream().filter(c -> c.getSuperClass().equals(superClass) && c.containAnnotation(annotation))
+                .forEach(c -> map.put(c.getAnnotation(annotation), c.getClazz()));
+        return map;
+    }
+
+    public static <T, D extends Annotation>
+    Map<D, Class<T>> getInstances(String pack, Class<D> annotation) {
+        Map<D, Class<T>> map = new HashMap<>();
+        List<ClassEntity> entities = getClassEntityByPackageName(pack);
+        entities.stream().filter(c -> c.containAnnotation(annotation))
+                .forEach(c -> map.put(c.getAnnotation(annotation), c.getClazz()));
         return map;
     }
 }

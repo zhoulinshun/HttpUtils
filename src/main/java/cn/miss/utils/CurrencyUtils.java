@@ -2,7 +2,6 @@ package cn.miss.utils;
 
 import java.io.File;
 import java.net.URL;
-import java.net.URLDecoder;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
@@ -33,9 +32,9 @@ public class CurrencyUtils {
     }
 
 
-    public static String getJarParentLocation(Class c) {
+    public static String getJarParentLocation() {
         String v;
-        if ((v = getJarLocation(c)) != null) {
+        if ((v = getJarLocation()) != null) {
             File parentFile = new File(v).getParentFile();
             return parentFile.getAbsolutePath();
         }
@@ -43,21 +42,12 @@ public class CurrencyUtils {
     }
 
     //获取当前jar运行目录
-    public static String getJarLocation(Class c) {
-        String filePath;
-        URL url = c.getProtectionDomain().getCodeSource().getLocation();
-        try {
-            filePath = URLDecoder.decode(url.getPath(), "utf-8");// 转化为utf-8编码，支持中文
-            if (filePath.endsWith(".jar")) {// 可执行jar包运行的结果里包含".jar"
-                return url.getPath();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
+    public static String getJarLocation() {
+        URL url = CurrencyUtils.class.getProtectionDomain().getCodeSource().getLocation();
+        return url.getPath();
     }
 
-    public static String getRunningTimeLocation(String pack) {
+    public static String getPackageLocation(String pack) {
         return CurrencyUtils.class.getResource(pack).getPath();
     }
 
